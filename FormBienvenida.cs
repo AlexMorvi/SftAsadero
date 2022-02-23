@@ -16,5 +16,20 @@ namespace SftAsadero
         {
             InitializeComponent();
         }
+
+        private void btnCombos_Click(object sender, EventArgs e)
+        {
+            FormCombos formCombos = new FormCombos();
+            this.Hide();
+            formCombos.Show();
+
+        }
+
+        private void btnPlatosFuertes_Click(object sender, EventArgs e)
+        {
+            FormPlatosFuertes formPlatosFuertes = new FormPlatosFuertes();
+            this.Hide();
+            formPlatosFuertes.Show();
+        }
     }
 }

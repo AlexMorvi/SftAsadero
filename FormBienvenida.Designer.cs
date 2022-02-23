@@ -59,6 +59,7 @@
             this.btnCombos.TabIndex = 1;
             this.btnCombos.Text = "Combos";
             this.btnCombos.UseVisualStyleBackColor = false;
+            this.btnCombos.Click += new System.EventHandler(this.btnCombos_Click);
             // 
             // btnPlatosFuertes
             // 
@@ -71,6 +72,7 @@
             this.btnPlatosFuertes.TabIndex = 2;
             this.btnPlatosFuertes.Text = "Platos Fuertes";
             this.btnPlatosFuertes.UseVisualStyleBackColor = false;
+            this.btnPlatosFuertes.Click += new System.EventHandler(this.btnPlatosFuertes_Click);
             // 
             // btnPostresYBebidas
             // 

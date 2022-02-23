@@ -370,6 +370,7 @@
             this.btnMenu.TabIndex = 25;
             this.btnMenu.Text = "Menu";
             this.btnMenu.UseVisualStyleBackColor = false;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
             // btnPlatosFuertes
             // 
@@ -382,6 +383,7 @@
             this.btnPlatosFuertes.TabIndex = 26;
             this.btnPlatosFuertes.Text = "Platos Fuertes";
             this.btnPlatosFuertes.UseVisualStyleBackColor = false;
+            this.btnPlatosFuertes.Click += new System.EventHandler(this.btnPlatosFuertes_Click);
             // 
             // FormCombos
             // 
