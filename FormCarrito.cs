@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SftAsadero
 {
-    public partial class Form1 : Form
+    public partial class FormCarrito : Form
     {
-        public Form1()
+        public FormCarrito()
         {
             InitializeComponent();
         }
