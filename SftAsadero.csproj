@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1206237.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -87,6 +90,21 @@
     <EmbeddedResource Include="FormBienvenida.resx">
       <DependentUpon>FormBienvenida.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormCarrito.resx">
+      <DependentUpon>FormCarrito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCombos.resx">
+      <DependentUpon>FormCombos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExtras.resx">
+      <DependentUpon>FormExtras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFactura.resx">
+      <DependentUpon>FormFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPlatosFuertes.resx">
+      <DependentUpon>FormPlatosFuertes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -108,6 +126,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1206237.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
