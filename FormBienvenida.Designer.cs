@@ -85,6 +85,7 @@
             this.btnPostresYBebidas.TabIndex = 3;
             this.btnPostresYBebidas.Text = "Postres y Bebidas";
             this.btnPostresYBebidas.UseVisualStyleBackColor = false;
+            this.btnPostresYBebidas.Click += new System.EventHandler(this.btnPostresYBebidas_Click);
             // 
             // FormBienvenida
             // 

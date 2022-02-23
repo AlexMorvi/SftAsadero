@@ -130,6 +130,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1206237.ico" />
+    <None Include="Resources\parrilla.jpg" />
+    <None Include="Resources\churrasco.jpg" />
+    <None Include="Resources\encebollado.png" />
+    <None Include="Resources\seco de pollo.jpg" />
+    <None Include="Resources\fondoplatosfuertes.jpg" />
     <None Include="Resources\COmbo 2.3.png" />
     <None Include="Resources\Combo 1.2.png" />
     <None Include="Resources\Combo 5.1.png" />

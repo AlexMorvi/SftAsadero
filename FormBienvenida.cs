@@ -31,5 +31,12 @@ namespace SftAsadero
             this.Hide();
             formPlatosFuertes.Show();
         }
+
+        private void btnPostresYBebidas_Click(object sender, EventArgs e)
+        {
+            FormExtras formExtras = new FormExtras();
+            this.Hide();
+            formExtras.Show();
+        }
     }
 }

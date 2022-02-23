@@ -56,6 +56,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.btnMenu = new System.Windows.Forms.Button();
             this.btnPlatosFuertes = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -425,6 +426,7 @@
             this.MinimizeBox = false;
             this.Name = "FormCombos";
             this.Text = "Asadero Pollitos En Fuga";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -471,5 +473,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button btnMenu;
         private System.Windows.Forms.Button btnPlatosFuertes;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

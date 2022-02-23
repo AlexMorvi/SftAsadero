@@ -63,6 +63,16 @@ namespace SftAsadero.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap churrasco {
+            get {
+                object obj = ResourceManager.GetObject("churrasco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Combo_1_2 {
             get {
                 object obj = ResourceManager.GetObject("Combo 1.2", resourceCulture);
@@ -133,6 +143,16 @@ namespace SftAsadero.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap encebollado {
+            get {
+                object obj = ResourceManager.GetObject("encebollado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fondo_menu_combos_1_2 {
             get {
                 object obj = ResourceManager.GetObject("Fondo menu combos 1.2", resourceCulture);
@@ -146,6 +166,36 @@ namespace SftAsadero.Properties {
         internal static System.Drawing.Bitmap Fondo_para_inicio {
             get {
                 object obj = ResourceManager.GetObject("Fondo para inicio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fondoplatosfuertes {
+            get {
+                object obj = ResourceManager.GetObject("fondoplatosfuertes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap parrilla {
+            get {
+                object obj = ResourceManager.GetObject("parrilla", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap seco_de_pollo {
+            get {
+                object obj = ResourceManager.GetObject("seco de pollo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

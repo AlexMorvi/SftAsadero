@@ -118,11 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Fondo para inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fondo para inicio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Combo 3.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Combo 3.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Combo 5.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Combo 5.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="churrasco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\churrasco.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COmbo 2.3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COmbo 2.3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="encebollado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\encebollado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Combo 3.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Combo 3.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Combo 4.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Combo 4.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,19 +139,25 @@
   <data name="Fondo menu combos 1.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fondo menu combos 1.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Combo 3.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Combo 3.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Combo 6.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Combo 6.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Combo 3.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Combo 3.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="seco de pollo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seco de pollo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Combo 5.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Combo 5.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondoplatosfuertes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondoplatosfuertes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fondo para inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fondo para inicio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Combo 1.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Combo 1.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Combo 6.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Combo 6.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="COmbo 2.3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\COmbo 2.3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="parrilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parrilla.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
