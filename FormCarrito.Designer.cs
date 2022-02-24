@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCarrito));
             this.label1 = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnAgregarMas = new System.Windows.Forms.Button();
+            this.btnTerminarCompra = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -57,29 +57,31 @@
             this.listView1.TabIndex = 1;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
-            // button1
+            // btnAgregarMas
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button1.Location = new System.Drawing.Point(169, 586);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(185, 51);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Añadir más";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnAgregarMas.BackColor = System.Drawing.SystemColors.ControlText;
+            this.btnAgregarMas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarMas.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.btnAgregarMas.Location = new System.Drawing.Point(169, 586);
+            this.btnAgregarMas.Name = "btnAgregarMas";
+            this.btnAgregarMas.Size = new System.Drawing.Size(185, 51);
+            this.btnAgregarMas.TabIndex = 2;
+            this.btnAgregarMas.Text = "Añadir más";
+            this.btnAgregarMas.UseVisualStyleBackColor = false;
+            this.btnAgregarMas.Click += new System.EventHandler(this.btnAgregarMas_Click);
             // 
-            // button2
+            // btnTerminarCompra
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ControlText;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button2.Location = new System.Drawing.Point(940, 586);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(188, 51);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Terminar Compra";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnTerminarCompra.BackColor = System.Drawing.SystemColors.ControlText;
+            this.btnTerminarCompra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTerminarCompra.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.btnTerminarCompra.Location = new System.Drawing.Point(940, 586);
+            this.btnTerminarCompra.Name = "btnTerminarCompra";
+            this.btnTerminarCompra.Size = new System.Drawing.Size(188, 51);
+            this.btnTerminarCompra.TabIndex = 3;
+            this.btnTerminarCompra.Text = "Terminar Compra";
+            this.btnTerminarCompra.UseVisualStyleBackColor = false;
+            this.btnTerminarCompra.Click += new System.EventHandler(this.btnTerminarCompra_Click);
             // 
             // FormCarrito
             // 
@@ -88,8 +90,8 @@
             this.BackgroundImage = global::SftAsadero.Properties.Resources.fire_1235718_960_720;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1346, 725);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnTerminarCompra);
+            this.Controls.Add(this.btnAgregarMas);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -109,7 +111,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnAgregarMas;
+        private System.Windows.Forms.Button btnTerminarCompra;
     }
 }
