@@ -63,6 +63,8 @@
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.nmrcQuimbolitos = new System.Windows.Forms.NumericUpDown();
             this.label14 = new System.Windows.Forms.Label();
+            this.btnMenu = new System.Windows.Forms.Button();
+            this.btnCarrito = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -453,6 +455,32 @@
             this.label14.TabIndex = 35;
             this.label14.Text = "Tres Quimbolitos $3.00";
             // 
+            // btnMenu
+            // 
+            this.btnMenu.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic);
+            this.btnMenu.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnMenu.Location = new System.Drawing.Point(85, 620);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(179, 33);
+            this.btnMenu.TabIndex = 36;
+            this.btnMenu.Text = "Menu";
+            this.btnMenu.UseVisualStyleBackColor = false;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
+            // 
+            // btnCarrito
+            // 
+            this.btnCarrito.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnCarrito.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic);
+            this.btnCarrito.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnCarrito.Location = new System.Drawing.Point(1072, 620);
+            this.btnCarrito.Name = "btnCarrito";
+            this.btnCarrito.Size = new System.Drawing.Size(179, 33);
+            this.btnCarrito.TabIndex = 37;
+            this.btnCarrito.Text = "Carrito";
+            this.btnCarrito.UseVisualStyleBackColor = false;
+            this.btnCarrito.Click += new System.EventHandler(this.btnCarrito_Click);
+            // 
             // FormExtras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -460,6 +488,8 @@
             this.BackgroundImage = global::SftAsadero.Properties.Resources.fondoExtrasHD;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1346, 725);
+            this.Controls.Add(this.btnCarrito);
+            this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.nmrcQuimbolitos);
             this.Controls.Add(this.pictureBox10);
@@ -562,5 +592,7 @@
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.NumericUpDown nmrcQuimbolitos;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Button btnMenu;
+        private System.Windows.Forms.Button btnCarrito;
     }
 }
