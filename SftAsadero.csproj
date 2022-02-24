@@ -130,6 +130,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1206237.ico" />
+    <None Include="Resources\Quimbolitos.jpg" />
+    <None Include="Resources\cheescacke.jpg" />
+    <None Include="Resources\bananaSplit.jpg" />
+    <None Include="Resources\tresleches.jpg" />
+    <None Include="Resources\tiramisu.jpg" />
+    <None Include="Resources\te.jpeg" />
+    <None Include="Resources\michelada.jpg" />
+    <None Include="Resources\jugos.jpg" />
+    <None Include="Resources\cerveza.jpg" />
+    <None Include="Resources\12colas.png" />
+    <None Include="Resources\fondoExtrasHD.jpg" />
+    <None Include="Resources\FondoExtra2.jpg" />
     <None Include="Resources\parrilla.jpg" />
     <None Include="Resources\churrasco.jpg" />
     <None Include="Resources\encebollado.png" />

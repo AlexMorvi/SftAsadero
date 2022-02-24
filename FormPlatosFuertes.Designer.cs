@@ -298,7 +298,7 @@
             this.btnExtras.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnExtras.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExtras.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnExtras.Location = new System.Drawing.Point(1158, 652);
+            this.btnExtras.Location = new System.Drawing.Point(1158, 671);
             this.btnExtras.Name = "btnExtras";
             this.btnExtras.Size = new System.Drawing.Size(179, 33);
             this.btnExtras.TabIndex = 27;
