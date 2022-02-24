@@ -130,6 +130,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1206237.ico" />
+    <None Include="Resources\chicken-legs.jpeg" />
     <None Include="Resources\fire-1235718_960_720.jpg" />
     <None Include="Resources\Quimbolitos.jpg" />
     <None Include="Resources\cheescacke.jpg" />

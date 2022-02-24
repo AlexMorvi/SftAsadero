@@ -103,6 +103,16 @@ namespace SftAsadero.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap chicken_legs {
+            get {
+                object obj = ResourceManager.GetObject("chicken-legs", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap churrasco {
             get {
                 object obj = ResourceManager.GetObject("churrasco", resourceCulture);
