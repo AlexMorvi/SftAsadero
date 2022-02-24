@@ -139,17 +139,20 @@
   <data name="Combo 3.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Combo 3.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cheescacke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cheescacke.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="bananaSplit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bananaSplit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="jugos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\jugos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tiramisu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tiramisu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fondo para inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fondo para inicio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="michelada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\michelada.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quimbolitos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quimbolitos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tresleches" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tresleches.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Combo 4.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Combo 4.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,14 +178,14 @@
   <data name="te" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\te.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cheescacke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cheescacke.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="12colas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\12colas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tresleches" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tresleches.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tiramisu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tiramisu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Fondo para inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fondo para inicio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="encebollado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\encebollado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,10 +193,10 @@
   <data name="Combo 1.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Combo 1.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="michelada" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\michelada.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="jugos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jugos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Quimbolitos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Quimbolitos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fire-1235718_960_720" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fire-1235718_960_720.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

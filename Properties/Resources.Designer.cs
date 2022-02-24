@@ -193,6 +193,16 @@ namespace SftAsadero.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fire_1235718_960_720 {
+            get {
+                object obj = ResourceManager.GetObject("fire-1235718_960_720", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fondo_menu_combos_1_2 {
             get {
                 object obj = ResourceManager.GetObject("Fondo menu combos 1.2", resourceCulture);
