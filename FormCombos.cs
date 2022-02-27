@@ -16,5 +16,19 @@ namespace SftAsadero
         {
             InitializeComponent();
         }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            FormBienvenida formBienvenida = new FormBienvenida();
+            this.Hide();
+            formBienvenida.Show();
+        }
+
+        private void btnPlatosFuertes_Click(object sender, EventArgs e)
+        {
+            FormPlatosFuertes formPlatosFuertes = new FormPlatosFuertes();
+            this.Hide();
+            formPlatosFuertes.Show();  
+        }
     }
 }

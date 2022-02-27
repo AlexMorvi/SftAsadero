@@ -29,13 +29,72 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCarrito));
+            this.label1 = new System.Windows.Forms.Label();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.btnAgregarMas = new System.Windows.Forms.Button();
+            this.btnTerminarCompra = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ControlText;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label1.Location = new System.Drawing.Point(352, 92);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(587, 39);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "¿Desea añadir algo más al carrito?";
+            // 
+            // listView1
+            // 
+            this.listView1.BackColor = System.Drawing.SystemColors.WindowText;
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(418, 218);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(478, 312);
+            this.listView1.TabIndex = 1;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // btnAgregarMas
+            // 
+            this.btnAgregarMas.BackColor = System.Drawing.SystemColors.ControlText;
+            this.btnAgregarMas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarMas.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.btnAgregarMas.Location = new System.Drawing.Point(169, 586);
+            this.btnAgregarMas.Name = "btnAgregarMas";
+            this.btnAgregarMas.Size = new System.Drawing.Size(185, 51);
+            this.btnAgregarMas.TabIndex = 2;
+            this.btnAgregarMas.Text = "Añadir más";
+            this.btnAgregarMas.UseVisualStyleBackColor = false;
+            this.btnAgregarMas.Click += new System.EventHandler(this.btnAgregarMas_Click);
+            // 
+            // btnTerminarCompra
+            // 
+            this.btnTerminarCompra.BackColor = System.Drawing.SystemColors.ControlText;
+            this.btnTerminarCompra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTerminarCompra.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.btnTerminarCompra.Location = new System.Drawing.Point(940, 586);
+            this.btnTerminarCompra.Name = "btnTerminarCompra";
+            this.btnTerminarCompra.Size = new System.Drawing.Size(188, 51);
+            this.btnTerminarCompra.TabIndex = 3;
+            this.btnTerminarCompra.Text = "Terminar Compra";
+            this.btnTerminarCompra.UseVisualStyleBackColor = false;
+            this.btnTerminarCompra.Click += new System.EventHandler(this.btnTerminarCompra_Click);
             // 
             // FormCarrito
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::SftAsadero.Properties.Resources.fire_1235718_960_720;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1346, 725);
+            this.ControlBox = false;
+            this.Controls.Add(this.btnTerminarCompra);
+            this.Controls.Add(this.btnAgregarMas);
+            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -45,9 +104,15 @@
             this.Text = "Asadero Poliitos En Fuga";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.Button btnAgregarMas;
+        private System.Windows.Forms.Button btnTerminarCompra;
     }
 }

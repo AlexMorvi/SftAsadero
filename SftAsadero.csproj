@@ -113,6 +113,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -129,6 +130,34 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1206237.ico" />
+    <None Include="Resources\chicken-legs.jpeg" />
+    <None Include="Resources\fire-1235718_960_720.jpg" />
+    <None Include="Resources\Quimbolitos.jpg" />
+    <None Include="Resources\cheescacke.jpg" />
+    <None Include="Resources\bananaSplit.jpg" />
+    <None Include="Resources\tresleches.jpg" />
+    <None Include="Resources\tiramisu.jpg" />
+    <None Include="Resources\te.jpeg" />
+    <None Include="Resources\michelada.jpg" />
+    <None Include="Resources\jugos.jpg" />
+    <None Include="Resources\cerveza.jpg" />
+    <None Include="Resources\12colas.png" />
+    <None Include="Resources\fondoExtrasHD.jpg" />
+    <None Include="Resources\FondoExtra2.jpg" />
+    <None Include="Resources\parrilla.jpg" />
+    <None Include="Resources\churrasco.jpg" />
+    <None Include="Resources\encebollado.png" />
+    <None Include="Resources\seco de pollo.jpg" />
+    <None Include="Resources\fondoplatosfuertes.jpg" />
+    <None Include="Resources\COmbo 2.3.png" />
+    <None Include="Resources\Combo 1.2.png" />
+    <None Include="Resources\Combo 5.1.png" />
+    <None Include="Resources\Combo 3.2.png" />
+    <None Include="Resources\Combo 4.2.png" />
+    <None Include="Resources\Combo 6.1.png" />
+    <None Include="Resources\Combo 3.1.png" />
+    <None Include="Resources\Fondo menu combos 1.2.jpg" />
+    <None Include="Resources\Fondo para inicio.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
