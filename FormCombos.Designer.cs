@@ -393,6 +393,7 @@
             this.BackgroundImage = global::SftAsadero.Properties.Resources.Fondo_menu_combos_1_2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1346, 725);
+            this.ControlBox = false;
             this.Controls.Add(this.btnPlatosFuertes);
             this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.label12);

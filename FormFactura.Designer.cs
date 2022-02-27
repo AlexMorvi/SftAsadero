@@ -201,6 +201,7 @@
             this.BackgroundImage = global::SftAsadero.Properties.Resources.chicken_legs;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1346, 725);
+            this.ControlBox = false;
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnFactura);
             this.Controls.Add(this.btnPagar);

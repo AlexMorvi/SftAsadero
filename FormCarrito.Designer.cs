@@ -90,6 +90,7 @@
             this.BackgroundImage = global::SftAsadero.Properties.Resources.fire_1235718_960_720;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1346, 725);
+            this.ControlBox = false;
             this.Controls.Add(this.btnTerminarCompra);
             this.Controls.Add(this.btnAgregarMas);
             this.Controls.Add(this.listView1);

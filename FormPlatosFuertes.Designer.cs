@@ -313,6 +313,7 @@
             this.BackgroundImage = global::SftAsadero.Properties.Resources.fondoplatosfuertes;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1366, 725);
+            this.ControlBox = false;
             this.Controls.Add(this.btnExtras);
             this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.label11);

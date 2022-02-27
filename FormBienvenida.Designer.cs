@@ -108,6 +108,7 @@
             this.BackgroundImage = global::SftAsadero.Properties.Resources.Fondo_para_inicio;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1346, 725);
+            this.ControlBox = false;
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnPostresYBebidas);
             this.Controls.Add(this.btnPlatosFuertes);
