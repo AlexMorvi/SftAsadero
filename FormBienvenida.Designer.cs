@@ -33,6 +33,7 @@
             this.btnCombos = new System.Windows.Forms.Button();
             this.btnPlatosFuertes = new System.Windows.Forms.Button();
             this.btnPostresYBebidas = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -41,11 +42,11 @@
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(288, 428);
+            this.label1.Location = new System.Drawing.Point(184, 395);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(745, 55);
+            this.label1.Size = new System.Drawing.Size(955, 55);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Bienvenidos a nuestro asadero!!";
+            this.label1.Text = "Bienvenidos al asadero \"Pollitos en Fuga\"";
             // 
             // btnCombos
             // 
@@ -87,6 +88,19 @@
             this.btnPostresYBebidas.UseVisualStyleBackColor = false;
             this.btnPostresYBebidas.Click += new System.EventHandler(this.btnPostresYBebidas_Click);
             // 
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic);
+            this.btnSalir.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnSalir.Location = new System.Drawing.Point(553, 658);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(234, 55);
+            this.btnSalir.TabIndex = 4;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormBienvenida
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -94,6 +108,7 @@
             this.BackgroundImage = global::SftAsadero.Properties.Resources.Fondo_para_inicio;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1346, 725);
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnPostresYBebidas);
             this.Controls.Add(this.btnPlatosFuertes);
             this.Controls.Add(this.btnCombos);
@@ -116,6 +131,7 @@
         private System.Windows.Forms.Button btnCombos;
         private System.Windows.Forms.Button btnPlatosFuertes;
         private System.Windows.Forms.Button btnPostresYBebidas;
+        private System.Windows.Forms.Button btnSalir;
     }
 }
 

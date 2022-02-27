@@ -38,5 +38,10 @@ namespace SftAsadero
             this.Hide();
             formExtras.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

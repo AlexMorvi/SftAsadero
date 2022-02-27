@@ -41,6 +41,7 @@
             this.lsvFactura = new System.Windows.Forms.ListView();
             this.btnPagar = new System.Windows.Forms.Button();
             this.btnFactura = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -160,11 +161,11 @@
             this.btnPagar.BackColor = System.Drawing.SystemColors.WindowText;
             this.btnPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPagar.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btnPagar.Location = new System.Drawing.Point(980, 662);
+            this.btnPagar.Location = new System.Drawing.Point(1103, 665);
             this.btnPagar.Name = "btnPagar";
             this.btnPagar.Size = new System.Drawing.Size(120, 35);
             this.btnPagar.TabIndex = 10;
-            this.btnPagar.Text = "PAGAR";
+            this.btnPagar.Text = "Pagar";
             this.btnPagar.UseVisualStyleBackColor = false;
             this.btnPagar.Click += new System.EventHandler(this.btnPagar_Click);
             // 
@@ -180,6 +181,19 @@
             this.btnFactura.Text = "Imprimir Factura";
             this.btnFactura.UseVisualStyleBackColor = false;
             // 
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.btnSalir.Location = new System.Drawing.Point(840, 665);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(120, 35);
+            this.btnSalir.TabIndex = 12;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
             // FormFactura
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -187,6 +201,7 @@
             this.BackgroundImage = global::SftAsadero.Properties.Resources.chicken_legs;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1346, 725);
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnFactura);
             this.Controls.Add(this.btnPagar);
             this.Controls.Add(this.lsvFactura);
@@ -226,5 +241,6 @@
         private System.Windows.Forms.ListView lsvFactura;
         private System.Windows.Forms.Button btnPagar;
         private System.Windows.Forms.Button btnFactura;
+        private System.Windows.Forms.Button btnSalir;
     }
 }
