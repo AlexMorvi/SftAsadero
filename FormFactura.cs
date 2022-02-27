@@ -16,5 +16,12 @@ namespace SftAsadero
         {
             InitializeComponent();
         }
+
+        private void btnPagar_Click(object sender, EventArgs e)
+        {
+            FormBienvenida formBienvenida = new FormBienvenida();
+            this.Hide();
+            formBienvenida.Show();
+        }
     }
 }

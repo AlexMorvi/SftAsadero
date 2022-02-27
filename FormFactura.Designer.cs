@@ -40,7 +40,7 @@
             this.txtDireccion = new System.Windows.Forms.TextBox();
             this.lsvFactura = new System.Windows.Forms.ListView();
             this.btnPagar = new System.Windows.Forms.Button();
-            this.btnRegresar = new System.Windows.Forms.Button();
+            this.btnFactura = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -149,7 +149,7 @@
             this.lsvFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lsvFactura.ForeColor = System.Drawing.SystemColors.Window;
             this.lsvFactura.HideSelection = false;
-            this.lsvFactura.Location = new System.Drawing.Point(840, 311);
+            this.lsvFactura.Location = new System.Drawing.Point(840, 368);
             this.lsvFactura.Name = "lsvFactura";
             this.lsvFactura.Size = new System.Drawing.Size(383, 266);
             this.lsvFactura.TabIndex = 9;
@@ -160,24 +160,25 @@
             this.btnPagar.BackColor = System.Drawing.SystemColors.WindowText;
             this.btnPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPagar.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btnPagar.Location = new System.Drawing.Point(1171, 640);
+            this.btnPagar.Location = new System.Drawing.Point(980, 662);
             this.btnPagar.Name = "btnPagar";
             this.btnPagar.Size = new System.Drawing.Size(120, 35);
             this.btnPagar.TabIndex = 10;
             this.btnPagar.Text = "PAGAR";
             this.btnPagar.UseVisualStyleBackColor = false;
+            this.btnPagar.Click += new System.EventHandler(this.btnPagar_Click);
             // 
-            // btnRegresar
+            // btnFactura
             // 
-            this.btnRegresar.BackColor = System.Drawing.SystemColors.ControlText;
-            this.btnRegresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegresar.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btnRegresar.Location = new System.Drawing.Point(764, 637);
-            this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(120, 38);
-            this.btnRegresar.TabIndex = 11;
-            this.btnRegresar.Text = "Regresar";
-            this.btnRegresar.UseVisualStyleBackColor = false;
+            this.btnFactura.BackColor = System.Drawing.SystemColors.ControlText;
+            this.btnFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFactura.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.btnFactura.Location = new System.Drawing.Point(946, 304);
+            this.btnFactura.Name = "btnFactura";
+            this.btnFactura.Size = new System.Drawing.Size(165, 38);
+            this.btnFactura.TabIndex = 11;
+            this.btnFactura.Text = "Imprimir Factura";
+            this.btnFactura.UseVisualStyleBackColor = false;
             // 
             // FormFactura
             // 
@@ -186,7 +187,7 @@
             this.BackgroundImage = global::SftAsadero.Properties.Resources.chicken_legs;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1346, 725);
-            this.Controls.Add(this.btnRegresar);
+            this.Controls.Add(this.btnFactura);
             this.Controls.Add(this.btnPagar);
             this.Controls.Add(this.lsvFactura);
             this.Controls.Add(this.txtDireccion);
@@ -224,6 +225,6 @@
         private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.ListView lsvFactura;
         private System.Windows.Forms.Button btnPagar;
-        private System.Windows.Forms.Button btnRegresar;
+        private System.Windows.Forms.Button btnFactura;
     }
 }
