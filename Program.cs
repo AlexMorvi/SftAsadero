@@ -21,28 +21,27 @@ namespace SftAsadero
         public struct menuCombos
         {
             public int numeroCombo;
-            public double precioCombos;
+            public int precioCombo;
         }
         public struct menuPlatos
         {
-            public int numeroPlatos;
-            public double precioPlatos;
+            public int numeroPlato;
+            public double precioPlato;
         }
         public struct menuExtras
         {
-            public int numeroExtras;
-            public double precioExtras;
+            public int numeroExtra;
+            public double precioExtra;
         }
         public struct factura
         {
             public cliente cliente;
             public fecha fecha;
-            public string menuCombosDescripcion;
-            public string menuPlatosDescripcion;
-            public string menuExtrasDescripcion;
-            public double subtotal;
+            public int subtotal;
             public double total;
+            public string descripcion;
         }
+
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
