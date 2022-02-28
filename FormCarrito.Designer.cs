@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCarrito));
             this.label1 = new System.Windows.Forms.Label();
-            this.listView1 = new System.Windows.Forms.ListView();
             this.btnAgregarMas = new System.Windows.Forms.Button();
             this.btnTerminarCompra = new System.Windows.Forms.Button();
+            this.txtCarrito = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -46,16 +46,6 @@
             this.label1.Size = new System.Drawing.Size(587, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "¿Desea añadir algo más al carrito?";
-            // 
-            // listView1
-            // 
-            this.listView1.BackColor = System.Drawing.SystemColors.WindowText;
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(418, 218);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(478, 312);
-            this.listView1.TabIndex = 1;
-            this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // btnAgregarMas
             // 
@@ -83,6 +73,18 @@
             this.btnTerminarCompra.UseVisualStyleBackColor = false;
             this.btnTerminarCompra.Click += new System.EventHandler(this.btnTerminarCompra_Click);
             // 
+            // txtCarrito
+            // 
+            this.txtCarrito.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtCarrito.Enabled = false;
+            this.txtCarrito.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtCarrito.Location = new System.Drawing.Point(414, 176);
+            this.txtCarrito.Multiline = true;
+            this.txtCarrito.Name = "txtCarrito";
+            this.txtCarrito.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtCarrito.Size = new System.Drawing.Size(468, 353);
+            this.txtCarrito.TabIndex = 4;
+            // 
             // FormCarrito
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -91,11 +93,11 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1346, 725);
             this.ControlBox = false;
+            this.Controls.Add(this.txtCarrito);
             this.Controls.Add(this.btnTerminarCompra);
             this.Controls.Add(this.btnAgregarMas);
-            this.Controls.Add(this.listView1);
             this.Controls.Add(this.label1);
-            this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -111,8 +113,8 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.Button btnAgregarMas;
         private System.Windows.Forms.Button btnTerminarCompra;
+        private System.Windows.Forms.TextBox txtCarrito;
     }
 }
