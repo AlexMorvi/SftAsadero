@@ -38,10 +38,10 @@
             this.txtCedula = new System.Windows.Forms.TextBox();
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.txtDireccion = new System.Windows.Forms.TextBox();
-            this.lsvFactura = new System.Windows.Forms.ListView();
             this.btnPagar = new System.Windows.Forms.Button();
             this.btnFactura = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.txtFacturaDatos = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -144,18 +144,6 @@
             this.txtDireccion.Size = new System.Drawing.Size(185, 26);
             this.txtDireccion.TabIndex = 8;
             // 
-            // lsvFactura
-            // 
-            this.lsvFactura.BackColor = System.Drawing.SystemColors.WindowText;
-            this.lsvFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lsvFactura.ForeColor = System.Drawing.SystemColors.Window;
-            this.lsvFactura.HideSelection = false;
-            this.lsvFactura.Location = new System.Drawing.Point(840, 368);
-            this.lsvFactura.Name = "lsvFactura";
-            this.lsvFactura.Size = new System.Drawing.Size(383, 266);
-            this.lsvFactura.TabIndex = 9;
-            this.lsvFactura.UseCompatibleStateImageBehavior = false;
-            // 
             // btnPagar
             // 
             this.btnPagar.BackColor = System.Drawing.SystemColors.WindowText;
@@ -194,6 +182,19 @@
             this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
+            // txtFacturaDatos
+            // 
+            this.txtFacturaDatos.BackColor = System.Drawing.SystemColors.MenuText;
+            this.txtFacturaDatos.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtFacturaDatos.Enabled = false;
+            this.txtFacturaDatos.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtFacturaDatos.Location = new System.Drawing.Point(827, 365);
+            this.txtFacturaDatos.Multiline = true;
+            this.txtFacturaDatos.Name = "txtFacturaDatos";
+            this.txtFacturaDatos.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtFacturaDatos.Size = new System.Drawing.Size(427, 271);
+            this.txtFacturaDatos.TabIndex = 13;
+            // 
             // FormFactura
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -202,10 +203,10 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1346, 725);
             this.ControlBox = false;
+            this.Controls.Add(this.txtFacturaDatos);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnFactura);
             this.Controls.Add(this.btnPagar);
-            this.Controls.Add(this.lsvFactura);
             this.Controls.Add(this.txtDireccion);
             this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.txtCedula);
@@ -215,7 +216,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -239,9 +240,9 @@
         private System.Windows.Forms.TextBox txtCedula;
         private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.TextBox txtDireccion;
-        private System.Windows.Forms.ListView lsvFactura;
         private System.Windows.Forms.Button btnPagar;
         private System.Windows.Forms.Button btnFactura;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.TextBox txtFacturaDatos;
     }
 }
