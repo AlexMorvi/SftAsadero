@@ -347,9 +347,9 @@
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label7.Location = new System.Drawing.Point(626, 320);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(163, 16);
+            this.label7.Size = new System.Drawing.Size(155, 16);
             this.label7.TabIndex = 26;
-            this.label7.Text = "Juego Natural 500ml $1.50";
+            this.label7.Text = "Jugo Natural 500ml $2.00\r\n";
             // 
             // label8
             // 
@@ -361,7 +361,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(142, 16);
             this.label8.TabIndex = 27;
-            this.label8.Text = "Michelada 500ml $2.50";
+            this.label8.Text = "Michelada 500ml $3.00";
             // 
             // label9
             // 
@@ -385,7 +385,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(120, 16);
             this.label10.TabIndex = 29;
-            this.label10.Text = "Mini Tiramisu $3.50";
+            this.label10.Text = "Mini Tiramisu $4.00";
             // 
             // label11
             // 
