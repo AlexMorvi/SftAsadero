@@ -15,8 +15,6 @@ namespace SftAsadero
     {
         
         menuCombos[] arregloCombos=new menuCombos[6] ;
-        cliente[] arregloCliente = new cliente[1];
-        fecha[] arregloFecha = new fecha[1];
         factura[] arregloFactura = new factura[1];
         public FormCombos()
         {
@@ -78,7 +76,7 @@ namespace SftAsadero
             FormPlatosFuertes formPlatosFuertes = new FormPlatosFuertes();
             this.Hide();
             formPlatosFuertes.Show();
-            MessageBox.Show(arregloFactura[0].subtotal + arregloFactura[0].descripcion);
+            MessageBox.Show(arregloFactura[0].subtotal +"\n"+ arregloFactura[0].descripcion);
         }
     }
 }

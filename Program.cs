@@ -26,12 +26,12 @@ namespace SftAsadero
         public struct menuPlatos
         {
             public int numeroPlato;
-            public double precioPlato;
+            public int precioPlato;
         }
         public struct menuExtras
         {
             public int numeroExtra;
-            public double precioExtra;
+            public int precioExtra;
         }
         public struct factura
         {

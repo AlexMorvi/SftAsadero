@@ -56,7 +56,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.btnMenu = new System.Windows.Forms.Button();
             this.btnPlatosFuertes = new System.Windows.Forms.Button();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -81,7 +80,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(349, 55);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Menu Combos";
+            this.label1.Text = "Menú Combos";
             // 
             // pictureBox1
             // 
@@ -356,9 +355,9 @@
             this.label13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label13.Location = new System.Drawing.Point(1053, 577);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(117, 20);
+            this.label13.Size = new System.Drawing.Size(126, 20);
             this.label13.TabIndex = 23;
-            this.label13.Text = "Combo 6 $5.00";
+            this.label13.Text = "Combo 6 $20.00";
             // 
             // btnMenu
             // 
@@ -474,6 +473,5 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button btnMenu;
         private System.Windows.Forms.Button btnPlatosFuertes;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
