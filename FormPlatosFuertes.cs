@@ -39,27 +39,28 @@ namespace SftAsadero
             if (nmrcSecoPollo.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcSecoPollo.Value) * arregloPlatos[0].precioPlato;
-                factura.descripcion += "Seco de Pollo\n";
+                factura.descripcion += nmrcSecoPollo.Value + "\tSeco de Pollo\t" + arregloPlatos[0].precioPlato+"\n";
+
             }
             if (nmrcEncebollado.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcEncebollado.Value) * arregloPlatos[1].precioPlato;
-                factura.descripcion += "Encebollado\n";
+                factura.descripcion += nmrcEncebollado.Value + "\tEncebollado\t" + arregloPlatos[1].precioPlato+"\n";
             }
             if (nmrcChurrasco.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcChurrasco.Value) * arregloPlatos[2].precioPlato;
-                factura.descripcion += "Churrasco\n";
+                factura.descripcion += nmrcChurrasco.Value + "\tChurrasco\t" + arregloPlatos[2].precioPlato+"\n";
             }
             if (nmrcParrillada.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcParrillada.Value) * arregloPlatos[3].precioPlato;
-                factura.descripcion += "Parrillada\n";
+                factura.descripcion += nmrcParrillada.Value + "\tParrillada\t" + arregloPlatos[3].precioPlato+"\n";
             }
             FormExtras formExtras = new FormExtras();
             this.Hide();
             formExtras.Show();
-            MessageBox.Show(factura.subtotal + "\n" + factura.descripcion);
+            MessageBox.Show(factura.subtotal + "\n" + factura.descripcion+ "\n");
         }
     }
 }

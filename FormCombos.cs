@@ -44,38 +44,38 @@ namespace SftAsadero
             if(nmrcCombo1.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcCombo1.Value )* arregloCombos[0].precioCombo;
-                factura.descripcion += "Combo 1\n";
+                factura.descripcion += nmrcCombo1.Value+ "\tCombo 1" + "\t" + arregloCombos[0].precioCombo+"\n";
             }
             if (nmrcCombo2.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcCombo2.Value) * arregloCombos[1].precioCombo;
-                factura.descripcion += "Combo 2\n";
+                factura.descripcion += nmrcCombo2.Value + "\tCombo 2" + "\t" + arregloCombos[1].precioCombo + "\n";
             }
             if (nmrcCombo3.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcCombo3.Value) * arregloCombos[2].precioCombo;
-                factura.descripcion += "Combo 3\n";
+                factura.descripcion += nmrcCombo3.Value + "\tCombo 3" + "\t" + arregloCombos[2].precioCombo + "\n";
             }
             if (nmrcCombo4.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcCombo4.Value) * arregloCombos[3].precioCombo;
-                factura.descripcion += "Combo 4\n";
+                factura.descripcion += nmrcCombo4.Value + "\tCombo 4" + "\t" + arregloCombos[3].precioCombo + "\n";
             }
             if (nmrcCombo5.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcCombo5.Value) * arregloCombos[4].precioCombo;
-                factura.descripcion += "Combo 5\n";
+                factura.descripcion += nmrcCombo5.Value + "\tCombo 5" + "\t" + arregloCombos[4].precioCombo + "\n";
             }
             if (nmrcCombo6.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcCombo6.Value) * arregloCombos[5].precioCombo;
-                factura.descripcion += "Combo 6\n";
+                factura.descripcion += nmrcCombo6.Value + "\tCombo 6"+"\t" + arregloCombos[5].precioCombo + "\n";
             }
-            
+
             FormPlatosFuertes formPlatosFuertes = new FormPlatosFuertes();
             this.Hide();
             formPlatosFuertes.Show();
-            MessageBox.Show(factura.subtotal +"\n"+ factura.descripcion);
+            MessageBox.Show(factura.subtotal +"\n"+ factura.descripcion+"\n");
         }
     }
 }
