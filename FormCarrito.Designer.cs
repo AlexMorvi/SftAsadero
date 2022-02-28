@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCarrito));
             this.label1 = new System.Windows.Forms.Label();
-            this.btnAgregarMas = new System.Windows.Forms.Button();
+            this.btnEliminarPedida = new System.Windows.Forms.Button();
             this.btnTerminarCompra = new System.Windows.Forms.Button();
             this.txtCarrito = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -47,18 +47,18 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "¿Desea añadir algo más al carrito?";
             // 
-            // btnAgregarMas
+            // btnEliminarPedida
             // 
-            this.btnAgregarMas.BackColor = System.Drawing.SystemColors.ControlText;
-            this.btnAgregarMas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarMas.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btnAgregarMas.Location = new System.Drawing.Point(169, 586);
-            this.btnAgregarMas.Name = "btnAgregarMas";
-            this.btnAgregarMas.Size = new System.Drawing.Size(185, 51);
-            this.btnAgregarMas.TabIndex = 2;
-            this.btnAgregarMas.Text = "Añadir más";
-            this.btnAgregarMas.UseVisualStyleBackColor = false;
-            this.btnAgregarMas.Click += new System.EventHandler(this.btnAgregarMas_Click);
+            this.btnEliminarPedida.BackColor = System.Drawing.SystemColors.ControlText;
+            this.btnEliminarPedida.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarPedida.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.btnEliminarPedida.Location = new System.Drawing.Point(169, 586);
+            this.btnEliminarPedida.Name = "btnEliminarPedida";
+            this.btnEliminarPedida.Size = new System.Drawing.Size(185, 51);
+            this.btnEliminarPedida.TabIndex = 2;
+            this.btnEliminarPedida.Text = "Eliminar Pedido";
+            this.btnEliminarPedida.UseVisualStyleBackColor = false;
+            this.btnEliminarPedida.Click += new System.EventHandler(this.btnEliminarPedido_Click);
             // 
             // btnTerminarCompra
             // 
@@ -95,7 +95,7 @@
             this.ControlBox = false;
             this.Controls.Add(this.txtCarrito);
             this.Controls.Add(this.btnTerminarCompra);
-            this.Controls.Add(this.btnAgregarMas);
+            this.Controls.Add(this.btnEliminarPedida);
             this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -113,7 +113,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnAgregarMas;
+        private System.Windows.Forms.Button btnEliminarPedida;
         private System.Windows.Forms.Button btnTerminarCompra;
         private System.Windows.Forms.TextBox txtCarrito;
     }

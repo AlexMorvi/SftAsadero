@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static SftAsadero.Program;
 
 namespace SftAsadero
 {
@@ -17,11 +18,15 @@ namespace SftAsadero
             InitializeComponent();
         }
 
-        private void btnAgregarMas_Click(object sender, EventArgs e)
+        private void btnEliminarPedido_Click(object sender, EventArgs e)
         {
+            factura.subtotal = 0;
+            factura.descripcion = null;
             FormBienvenida formBienvenida = new FormBienvenida ();
             this.Hide();
             formBienvenida.Show();
+            
+
         }
 
         private void btnTerminarCompra_Click(object sender, EventArgs e)
