@@ -32,9 +32,16 @@ namespace SftAsadero
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
-            FormBienvenida formBienvenida = new FormBienvenida();
-            this.Hide();
-            formBienvenida.Show();
+            DialogResult opcion;
+            opcion = MessageBox.Show("Se anulará su orden\n¿Desea continuar?", "Mensaje", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (opcion == DialogResult.OK)
+            {
+                FormBienvenida formBienvenida = new FormBienvenida();
+                this.Hide();
+                formBienvenida.Show();
+                factura.subtotal = 0;
+                factura.descripcion = null;
+            }
         }
 
         private void btnPlatosFuertes_Click(object sender, EventArgs e)

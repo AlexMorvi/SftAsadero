@@ -20,13 +20,16 @@ namespace SftAsadero
 
         private void btnEliminarPedido_Click(object sender, EventArgs e)
         {
-            factura.subtotal = 0;
-            factura.descripcion = null;
-            FormBienvenida formBienvenida = new FormBienvenida ();
-            this.Hide();
-            formBienvenida.Show();
-            
-
+            DialogResult opcion;
+            opcion = MessageBox.Show("Se anulará su orden\n¿Deseá continuar?", "Mensaje", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (opcion == DialogResult.OK)
+            {
+                FormBienvenida formBienvenida = new FormBienvenida();
+                this.Hide();
+                formBienvenida.Show();
+                factura.subtotal = 0;
+                factura.descripcion = null;
+            }
         }
 
         private void btnTerminarCompra_Click(object sender, EventArgs e)
