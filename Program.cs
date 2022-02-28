@@ -37,9 +37,9 @@ namespace SftAsadero
         {
             public cliente cliente;
             public fecha fecha;
-            public int subtotal;
+            static public int subtotal;
             public double total;
-            public string descripcion;
+            static public string descripcion;
         }
 
         /// <summary>

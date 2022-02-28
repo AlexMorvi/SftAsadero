@@ -14,7 +14,6 @@ namespace SftAsadero
     public partial class FormPlatosFuertes : Form
     {
         menuPlatos[] arregloPlatos = new menuPlatos[4];
-        factura[] arregloFactura = new factura[1];
         public FormPlatosFuertes()
         {
             InitializeComponent();
@@ -39,28 +38,28 @@ namespace SftAsadero
         {
             if (nmrcSecoPollo.Value > 0)
             {
-                arregloFactura[0].subtotal += Convert.ToInt32(nmrcSecoPollo.Value) * arregloPlatos[0].precioPlato;
-                arregloFactura[0].descripcion += "Seco de Pollo\n";
+                factura.subtotal += Convert.ToInt32(nmrcSecoPollo.Value) * arregloPlatos[0].precioPlato;
+                factura.descripcion += "Seco de Pollo\n";
             }
             if (nmrcEncebollado.Value > 0)
             {
-                arregloFactura[0].subtotal += Convert.ToInt32(nmrcEncebollado.Value) * arregloPlatos[1].precioPlato;
-                arregloFactura[0].descripcion += "Encebollado\n";
+                factura.subtotal += Convert.ToInt32(nmrcEncebollado.Value) * arregloPlatos[1].precioPlato;
+                factura.descripcion += "Encebollado\n";
             }
             if (nmrcChurrasco.Value > 0)
             {
-                arregloFactura[0].subtotal += Convert.ToInt32(nmrcChurrasco.Value) * arregloPlatos[2].precioPlato;
-                arregloFactura[0].descripcion += "Churrasco\n";
+                factura.subtotal += Convert.ToInt32(nmrcChurrasco.Value) * arregloPlatos[2].precioPlato;
+                factura.descripcion += "Churrasco\n";
             }
             if (nmrcParrillada.Value > 0)
             {
-                arregloFactura[0].subtotal += Convert.ToInt32(nmrcParrillada.Value) * arregloPlatos[3].precioPlato;
-                arregloFactura[0].descripcion += "Parrillada\n";
+                factura.subtotal += Convert.ToInt32(nmrcParrillada.Value) * arregloPlatos[3].precioPlato;
+                factura.descripcion += "Parrillada\n";
             }
             FormExtras formExtras = new FormExtras();
             this.Hide();
             formExtras.Show();
-            MessageBox.Show(arregloFactura[0].subtotal + "\n" + arregloFactura[0].descripcion);
+            MessageBox.Show(factura.subtotal + "\n" + factura.descripcion);
         }
     }
 }
