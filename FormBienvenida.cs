@@ -41,7 +41,12 @@ namespace SftAsadero
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult opcion;
+            opcion = MessageBox.Show("Saldrá de la aplicación\n¿Desea continuar?", "Mensaje", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (opcion == DialogResult.OK)
+            {
+                Application.Exit();
+            }
         }
     }
 }

@@ -180,7 +180,7 @@
             this.nmrcColas.ForeColor = System.Drawing.SystemColors.Info;
             this.nmrcColas.Location = new System.Drawing.Point(114, 312);
             this.nmrcColas.Name = "nmrcColas";
-            this.nmrcColas.Size = new System.Drawing.Size(30, 24);
+            this.nmrcColas.Size = new System.Drawing.Size(36, 24);
             this.nmrcColas.TabIndex = 10;
             // 
             // nmrcCerveza
@@ -190,7 +190,7 @@
             this.nmrcCerveza.ForeColor = System.Drawing.SystemColors.Info;
             this.nmrcCerveza.Location = new System.Drawing.Point(354, 312);
             this.nmrcCerveza.Name = "nmrcCerveza";
-            this.nmrcCerveza.Size = new System.Drawing.Size(30, 24);
+            this.nmrcCerveza.Size = new System.Drawing.Size(36, 24);
             this.nmrcCerveza.TabIndex = 11;
             // 
             // nmrcJugos
@@ -200,7 +200,7 @@
             this.nmrcJugos.ForeColor = System.Drawing.SystemColors.Info;
             this.nmrcJugos.Location = new System.Drawing.Point(590, 312);
             this.nmrcJugos.Name = "nmrcJugos";
-            this.nmrcJugos.Size = new System.Drawing.Size(30, 24);
+            this.nmrcJugos.Size = new System.Drawing.Size(36, 24);
             this.nmrcJugos.TabIndex = 12;
             // 
             // nmrcMichelada
@@ -210,7 +210,7 @@
             this.nmrcMichelada.ForeColor = System.Drawing.SystemColors.Info;
             this.nmrcMichelada.Location = new System.Drawing.Point(832, 312);
             this.nmrcMichelada.Name = "nmrcMichelada";
-            this.nmrcMichelada.Size = new System.Drawing.Size(30, 24);
+            this.nmrcMichelada.Size = new System.Drawing.Size(36, 24);
             this.nmrcMichelada.TabIndex = 13;
             // 
             // nmrcTeHelado
@@ -220,7 +220,7 @@
             this.nmrcTeHelado.ForeColor = System.Drawing.SystemColors.Info;
             this.nmrcTeHelado.Location = new System.Drawing.Point(1071, 308);
             this.nmrcTeHelado.Name = "nmrcTeHelado";
-            this.nmrcTeHelado.Size = new System.Drawing.Size(30, 24);
+            this.nmrcTeHelado.Size = new System.Drawing.Size(36, 24);
             this.nmrcTeHelado.TabIndex = 14;
             // 
             // label4
@@ -292,7 +292,7 @@
             this.nmrcTresLeches.ForeColor = System.Drawing.SystemColors.Info;
             this.nmrcTresLeches.Location = new System.Drawing.Point(354, 532);
             this.nmrcTresLeches.Name = "nmrcTresLeches";
-            this.nmrcTresLeches.Size = new System.Drawing.Size(30, 24);
+            this.nmrcTresLeches.Size = new System.Drawing.Size(36, 24);
             this.nmrcTresLeches.TabIndex = 21;
             // 
             // nmrcBananaSplit
@@ -302,7 +302,7 @@
             this.nmrcBananaSplit.ForeColor = System.Drawing.SystemColors.Info;
             this.nmrcBananaSplit.Location = new System.Drawing.Point(590, 532);
             this.nmrcBananaSplit.Name = "nmrcBananaSplit";
-            this.nmrcBananaSplit.Size = new System.Drawing.Size(30, 24);
+            this.nmrcBananaSplit.Size = new System.Drawing.Size(36, 24);
             this.nmrcBananaSplit.TabIndex = 22;
             // 
             // nmrcCheesCake
@@ -312,7 +312,7 @@
             this.nmrcCheesCake.ForeColor = System.Drawing.SystemColors.Info;
             this.nmrcCheesCake.Location = new System.Drawing.Point(832, 532);
             this.nmrcCheesCake.Name = "nmrcCheesCake";
-            this.nmrcCheesCake.Size = new System.Drawing.Size(30, 24);
+            this.nmrcCheesCake.Size = new System.Drawing.Size(36, 24);
             this.nmrcCheesCake.TabIndex = 23;
             // 
             // label5
@@ -347,9 +347,9 @@
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label7.Location = new System.Drawing.Point(626, 320);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(163, 16);
+            this.label7.Size = new System.Drawing.Size(155, 16);
             this.label7.TabIndex = 26;
-            this.label7.Text = "Juego Natural 500ml $1.50";
+            this.label7.Text = "Jugo Natural 500ml $2.00\r\n";
             // 
             // label8
             // 
@@ -361,7 +361,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(142, 16);
             this.label8.TabIndex = 27;
-            this.label8.Text = "Michelada 500ml $2.50";
+            this.label8.Text = "Michelada 500ml $3.00";
             // 
             // label9
             // 
@@ -385,7 +385,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(120, 16);
             this.label10.TabIndex = 29;
-            this.label10.Text = "Mini Tiramisu $3.50";
+            this.label10.Text = "Mini Tiramisu $4.00";
             // 
             // label11
             // 
@@ -440,7 +440,7 @@
             this.nmrcQuimbolitos.ForeColor = System.Drawing.SystemColors.Info;
             this.nmrcQuimbolitos.Location = new System.Drawing.Point(1071, 532);
             this.nmrcQuimbolitos.Name = "nmrcQuimbolitos";
-            this.nmrcQuimbolitos.Size = new System.Drawing.Size(30, 24);
+            this.nmrcQuimbolitos.Size = new System.Drawing.Size(36, 24);
             this.nmrcQuimbolitos.TabIndex = 34;
             // 
             // label14
