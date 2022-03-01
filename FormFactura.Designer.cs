@@ -115,6 +115,7 @@
             this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.ForeColor = System.Drawing.SystemColors.Window;
             this.txtNombre.Location = new System.Drawing.Point(1038, 82);
+            this.txtNombre.MaxLength = 3444;
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(185, 26);
             this.txtNombre.TabIndex = 5;
@@ -128,6 +129,7 @@
             this.txtCedula.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCedula.ForeColor = System.Drawing.SystemColors.Window;
             this.txtCedula.Location = new System.Drawing.Point(1038, 139);
+            this.txtCedula.MaxLength = 10;
             this.txtCedula.Name = "txtCedula";
             this.txtCedula.Size = new System.Drawing.Size(185, 26);
             this.txtCedula.TabIndex = 6;
@@ -141,6 +143,7 @@
             this.txtTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefono.ForeColor = System.Drawing.SystemColors.Window;
             this.txtTelefono.Location = new System.Drawing.Point(1038, 190);
+            this.txtTelefono.MaxLength = 10;
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(185, 26);
             this.txtTelefono.TabIndex = 7;
@@ -202,7 +205,7 @@
             // txtFacturaDatos
             // 
             this.txtFacturaDatos.BackColor = System.Drawing.SystemColors.WindowText;
-            this.txtFacturaDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.txtFacturaDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFacturaDatos.ForeColor = System.Drawing.SystemColors.Window;
             this.txtFacturaDatos.Location = new System.Drawing.Point(807, 365);
             this.txtFacturaDatos.Multiline = true;

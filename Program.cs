@@ -38,6 +38,7 @@ namespace SftAsadero
         {
             static public int subtotal;
             static public double total;
+            static public double iva;
             static public string descripcion;
         }
 
