@@ -81,7 +81,6 @@ namespace SftAsadero
             FormPlatosFuertes formPlatosFuertes = new FormPlatosFuertes();
             this.Hide();
             formPlatosFuertes.Show();
-            MessageBox.Show(factura.subtotal +"\n"+ factura.descripcion+"\n");
         }
     }
 }

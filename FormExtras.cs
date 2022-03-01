@@ -113,8 +113,6 @@ namespace SftAsadero
             FormCarrito formCarrito = new FormCarrito();
             this.Hide();
             formCarrito.Show();
-            MessageBox.Show(factura.subtotal + "\n" + factura.descripcion + "\n");
-
         }
     }
 }

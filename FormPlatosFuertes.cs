@@ -67,7 +67,6 @@ namespace SftAsadero
             FormExtras formExtras = new FormExtras();
             this.Hide();
             formExtras.Show();
-            MessageBox.Show(factura.subtotal + "\n" + factura.descripcion+ "\n");
         }
     }
 }
