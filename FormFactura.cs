@@ -25,6 +25,13 @@ namespace SftAsadero
         {
             MessageBox.Show("Su transacción se realizó con éxito", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
             FormBienvenida formBienvenida = new FormBienvenida();
+            factura.subtotal = 0;
+            factura.descripcion = null;
+            factura.total = 0;
+            cliente.nombre = null;
+            cliente.cedula = null;
+            cliente.direccion = null;
+            cliente.telefono = null;
             this.Hide();
             formBienvenida.Show();
         }
