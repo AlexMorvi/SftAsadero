@@ -57,7 +57,7 @@ namespace SftAsadero
             if (nmrcChurrasco.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcChurrasco.Value) * arregloPlatos[2].precioPlato;
-                factura.descripcion += nmrcChurrasco.Value + "\tChurrasco\r\t" + "$" + arregloPlatos[2].precioPlato+"\r\n";
+                factura.descripcion += nmrcChurrasco.Value + "\tChurrasco\r\t\t" + "$" + arregloPlatos[2].precioPlato+"\r\n";
             }
             if (nmrcParrillada.Value > 0)
             {

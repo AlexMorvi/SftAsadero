@@ -70,7 +70,7 @@ namespace SftAsadero
             if (nmrcMichelada.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcMichelada.Value) * arregloExtras[3].precioExtra;
-                factura.descripcion += nmrcMichelada.Value + "\tMichelada\t" + "$" + arregloExtras[3].precioExtra + "\r\n";
+                factura.descripcion += nmrcMichelada.Value + "\tMichelada\t\t" + "$" + arregloExtras[3].precioExtra + "\r\n";
 
             }
             if (nmrcTeHelado.Value > 0)

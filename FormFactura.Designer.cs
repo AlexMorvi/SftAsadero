@@ -204,11 +204,11 @@
             this.txtFacturaDatos.BackColor = System.Drawing.SystemColors.WindowText;
             this.txtFacturaDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.txtFacturaDatos.ForeColor = System.Drawing.SystemColors.Window;
-            this.txtFacturaDatos.Location = new System.Drawing.Point(818, 365);
+            this.txtFacturaDatos.Location = new System.Drawing.Point(807, 365);
             this.txtFacturaDatos.Multiline = true;
             this.txtFacturaDatos.Name = "txtFacturaDatos";
             this.txtFacturaDatos.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtFacturaDatos.Size = new System.Drawing.Size(427, 278);
+            this.txtFacturaDatos.Size = new System.Drawing.Size(468, 278);
             this.txtFacturaDatos.TabIndex = 13;
             // 
             // lblAdvertencia
