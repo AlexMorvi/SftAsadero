@@ -14,9 +14,10 @@ namespace SftAsadero
         }
         public struct fecha
         {
-            static public int dia;
-            static public int mes;
-            static public int anio;
+            static public string dia;
+            static public string mes;
+            static public string anio;
+            static public string hora;
         }
         public struct menuCombos
         {
