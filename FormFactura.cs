@@ -21,6 +21,7 @@ namespace SftAsadero
 
         private void btnPagar_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Su transacción se realizó con éxito", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
             FormBienvenida formBienvenida = new FormBienvenida();
             this.Hide();
             formBienvenida.Show();
@@ -28,7 +29,12 @@ namespace SftAsadero
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult opcion;
+            opcion = MessageBox.Show("Saldrá de la aplicación\n¿Desea continuar?", "Mensaje", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (opcion == DialogResult.OK)
+            {
+                Application.Exit();
+            }
         }
         
         private void btnFactura_Click(object sender, EventArgs e)
