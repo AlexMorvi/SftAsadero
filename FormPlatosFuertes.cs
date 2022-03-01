@@ -46,23 +46,23 @@ namespace SftAsadero
             if (nmrcSecoPollo.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcSecoPollo.Value) * arregloPlatos[0].precioPlato;
-                factura.descripcion += nmrcSecoPollo.Value + "\tSeco de Pollo\t" + arregloPlatos[0].precioPlato+"\n";
+                factura.descripcion += nmrcSecoPollo.Value + "\tSeco de Pollo\r\t" + arregloPlatos[0].precioPlato+"\r\n";
 
             }
             if (nmrcEncebollado.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcEncebollado.Value) * arregloPlatos[1].precioPlato;
-                factura.descripcion += nmrcEncebollado.Value + "\tEncebollado\t" + arregloPlatos[1].precioPlato+"\n";
+                factura.descripcion += nmrcEncebollado.Value + "\tEncebollado\r\t" + arregloPlatos[1].precioPlato+"\r\n";
             }
             if (nmrcChurrasco.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcChurrasco.Value) * arregloPlatos[2].precioPlato;
-                factura.descripcion += nmrcChurrasco.Value + "\tChurrasco\t" + arregloPlatos[2].precioPlato+"\n";
+                factura.descripcion += nmrcChurrasco.Value + "\tChurrasco\r\t\t" + arregloPlatos[2].precioPlato+"\r\n";
             }
             if (nmrcParrillada.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcParrillada.Value) * arregloPlatos[3].precioPlato;
-                factura.descripcion += nmrcParrillada.Value + "\tParrillada\t" + arregloPlatos[3].precioPlato+"\n";
+                factura.descripcion += nmrcParrillada.Value + "\tParrillada\r\t\t" + arregloPlatos[3].precioPlato+"\r\n";
             }
             FormExtras formExtras = new FormExtras();
             this.Hide();

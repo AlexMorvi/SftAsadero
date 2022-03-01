@@ -76,7 +76,9 @@
             // txtCarrito
             // 
             this.txtCarrito.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtCarrito.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCarrito.Enabled = false;
+            this.txtCarrito.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCarrito.ForeColor = System.Drawing.SystemColors.Window;
             this.txtCarrito.Location = new System.Drawing.Point(414, 176);
             this.txtCarrito.Multiline = true;
@@ -115,6 +117,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnEliminarPedida;
         private System.Windows.Forms.Button btnTerminarCompra;
-        private System.Windows.Forms.TextBox txtCarrito;
+        public System.Windows.Forms.TextBox txtCarrito;
     }
 }

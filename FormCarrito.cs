@@ -16,6 +16,7 @@ namespace SftAsadero
         public FormCarrito()
         {
             InitializeComponent();
+            txtCarrito.Text= "Cantidad\r\tProducto\r\t\tPrecio U.\r\n" + Convert.ToString(factura.descripcion) + "\r\n";
         }
 
         private void btnEliminarPedido_Click(object sender, EventArgs e)

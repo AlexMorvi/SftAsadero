@@ -52,61 +52,61 @@ namespace SftAsadero
             if (nmrcColas.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcColas.Value) * arregloExtras[0].precioExtra;
-                factura.descripcion += nmrcColas.Value + "\tGaseosa\t" + arregloExtras[0].precioExtra + "\n";
+                factura.descripcion += nmrcColas.Value + "\tGaseosa\t\t" + arregloExtras[0].precioExtra + "\r\n";
 
             }
             if (nmrcCerveza.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcCerveza.Value) * arregloExtras[1].precioExtra;
-                factura.descripcion += nmrcCerveza.Value + "\tCerveza\t" + arregloExtras[1].precioExtra + "\n";
+                factura.descripcion += nmrcCerveza.Value + "\tCerveza\t\t" + arregloExtras[1].precioExtra + "\r\n";
 
             }
             if (nmrcJugos.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcJugos.Value) * arregloExtras[2].precioExtra;
-                factura.descripcion += nmrcJugos.Value + "\tJugo Natural\t" + arregloExtras[2].precioExtra + "\n";
+                factura.descripcion += nmrcJugos.Value + "\tJugo Natural\t" + arregloExtras[2].precioExtra + "\r\n";
 
             }
             if (nmrcMichelada.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcMichelada.Value) * arregloExtras[3].precioExtra;
-                factura.descripcion += nmrcMichelada.Value + "\tMichelada\t" + arregloExtras[3].precioExtra + "\n";
+                factura.descripcion += nmrcMichelada.Value + "\tMichelada\t\t" + arregloExtras[3].precioExtra + "\r\n";
 
             }
             if (nmrcTeHelado.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcTeHelado.Value) * arregloExtras[4].precioExtra;
-                factura.descripcion += nmrcTeHelado.Value + "\tTe Helado\t" + arregloExtras[4].precioExtra + "\n";
+                factura.descripcion += nmrcTeHelado.Value + "\tTe Helado\t" + arregloExtras[4].precioExtra + "\r\n";
 
             }
             if (nmrcTiramisu.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcTiramisu.Value) * arregloExtras[5].precioExtra;
-                factura.descripcion += nmrcTiramisu.Value + "\tMini Tiramisu\t" + arregloExtras[5].precioExtra + "\n";
+                factura.descripcion += nmrcTiramisu.Value + "\tMini Tiramisu\t" + arregloExtras[5].precioExtra + "\r\n";
 
             }
             if (nmrcTresLeches.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcTresLeches.Value) * arregloExtras[6].precioExtra;
-                factura.descripcion += nmrcTresLeches.Value + "\tMini TresLeches\t" + arregloExtras[6].precioExtra + "\n";
+                factura.descripcion += nmrcTresLeches.Value + "\tMini TresLeches\r\t" + arregloExtras[6].precioExtra + "\r\n";
 
             }
             if (nmrcBananaSplit.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcBananaSplit.Value) * arregloExtras[7].precioExtra;
-                factura.descripcion += nmrcBananaSplit.Value + "\tBanana Split\t" + arregloExtras[7].precioExtra + "\n";
+                factura.descripcion += nmrcBananaSplit.Value + "\tBanana Split\r\t" + arregloExtras[7].precioExtra + "\r\n";
 
             }
             if (nmrcCheesCake.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcCheesCake.Value) * arregloExtras[8].precioExtra;
-                factura.descripcion += nmrcCheesCake.Value + "\tMini Cheescake\t" + arregloExtras[8].precioExtra + "\n";
+                factura.descripcion += nmrcCheesCake.Value + "\tMini Cheescake\r\t" + arregloExtras[8].precioExtra + "\r\n";
 
             }
             if (nmrcQuimbolitos.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcQuimbolitos.Value) * arregloExtras[9].precioExtra;
-                factura.descripcion += nmrcQuimbolitos.Value + "\tTres Quimbolitos\t" + arregloExtras[9].precioExtra + "\n";
+                factura.descripcion += nmrcQuimbolitos.Value + "\tTres Quimbolitos\r\t" + arregloExtras[9].precioExtra + "\r\n";
 
             }
 
