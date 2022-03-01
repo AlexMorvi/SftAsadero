@@ -39,5 +39,18 @@ namespace SftAsadero
             this.Hide();
             formFactura.Show();
         }
+
+        private void FormCarrito_Load(object sender, EventArgs e)
+        {
+            if (factura.subtotal == 0)
+            {
+                MessageBox.Show("No agregó ningun producto, se le redirigirá al menú", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                FormBienvenida formBienvenida = new FormBienvenida();
+                this.Hide();
+                formBienvenida.Show();
+                factura.subtotal = 0;
+                factura.descripcion = null;
+            }
+        }
     }
 }
