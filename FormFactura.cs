@@ -17,15 +17,26 @@ namespace SftAsadero
         public FormFactura()
         {
             InitializeComponent();
+            btnSalir.Enabled = false;
+            btnPagar.Enabled = false;
+            btnFactura.Enabled = false;
+        }
+        private void FormFactura_load (object sender, EventArgs e)
+        {
             lblAdvertencia.Hide();
             lblObliNombre.Hide();
             lblObliCi.Hide();
             lblObiTelefono.Hide();
             lblObliDireccion.Hide();
-            btnSalir.Enabled = false;
-            btnPagar.Enabled = false;
         }
-
+        private void validarCampo()
+        {
+            var vr = !string.IsNullOrEmpty(txtNombre.Text) &&
+                !string.IsNullOrEmpty(txtCedula.Text) &&
+                !string.IsNullOrEmpty(txtTelefono.Text) &&
+                !string.IsNullOrEmpty(txtDireccion.Text);
+            btnFactura.Enabled = vr;
+        }
         private void btnPagar_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Su transacción se realizó con éxito", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -78,7 +89,6 @@ namespace SftAsadero
             else
             {
                 txtNombre.BackColor = Color.Black;
-                lblAdvertencia.Hide();
                 lblObliNombre.Hide();
             }
         }
@@ -94,7 +104,6 @@ namespace SftAsadero
             else
             {
                 txtCedula.BackColor = Color.Black;
-                lblAdvertencia.Hide();
                 lblObliCi.Hide();
             }
         }
@@ -110,7 +119,6 @@ namespace SftAsadero
             else
             {
                 txtTelefono.BackColor = Color.Black;
-                lblAdvertencia.Hide();
                 lblObiTelefono.Hide();
             }
         }
@@ -153,6 +161,26 @@ namespace SftAsadero
             {
                 e.Handled = true;
             }
+        }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+            validarCampo();
+        }
+
+        private void txtCedula_TextChanged(object sender, EventArgs e)
+        {
+            validarCampo();
+        }
+
+        private void txtTelefono_TextChanged(object sender, EventArgs e)
+        {
+            validarCampo();
+        }
+
+        private void txtDireccion_TextChanged(object sender, EventArgs e)
+        {
+            validarCampo();
         }
     }
 }
