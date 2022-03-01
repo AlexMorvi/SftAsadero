@@ -183,5 +183,19 @@ namespace SftAsadero
         {
             validarCampo();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtNombre.Text = "Consumidor Final";
+            txtCedula.Text = "0000000000";
+            txtTelefono.Text = "0000000000";
+            txtDireccion.Text = "Sin Dirección";
+            lblAdvertencia.Hide();
+            lblObliNombre.Hide();
+            lblObliCi.Hide();
+            lblObiTelefono.Hide();
+            lblObliDireccion.Hide();
+            txtNombre.BackColor = Color.Black;
+        }
     }
 }

@@ -142,6 +142,9 @@
   <data name="Combo 4.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Combo 4.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="chicken-legs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken-legs.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Fondo menu combos 1.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fondo menu combos 1.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -153,6 +156,9 @@
   </data>
   <data name="parrilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\parrilla.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seco de pollo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seco de pollo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="encebollado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\encebollado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,9 +187,6 @@
   <data name="churrasco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\churrasco.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Quimbolitos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Quimbolitos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="COmbo 2.3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\COmbo 2.3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -193,13 +196,13 @@
   <data name="Combo 5.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Combo 5.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="seco de pollo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\seco de pollo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Quimbolitos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quimbolitos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Combo 1.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Combo 1.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="chicken-legs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chicken-legs.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="WhatsApp Image 2022-03-01 at 14.51.21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2022-03-01 at 14.51.21.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

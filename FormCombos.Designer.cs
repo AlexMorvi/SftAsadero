@@ -155,7 +155,7 @@
             this.nmrcCombo1.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.nmrcCombo1.Location = new System.Drawing.Point(141, 285);
             this.nmrcCombo1.Name = "nmrcCombo1";
-            this.nmrcCombo1.Size = new System.Drawing.Size(30, 20);
+            this.nmrcCombo1.Size = new System.Drawing.Size(36, 20);
             this.nmrcCombo1.TabIndex = 7;
             // 
             // nmrcCombo2
@@ -165,7 +165,7 @@
             this.nmrcCombo2.ForeColor = System.Drawing.SystemColors.Window;
             this.nmrcCombo2.Location = new System.Drawing.Point(561, 285);
             this.nmrcCombo2.Name = "nmrcCombo2";
-            this.nmrcCombo2.Size = new System.Drawing.Size(30, 20);
+            this.nmrcCombo2.Size = new System.Drawing.Size(36, 20);
             this.nmrcCombo2.TabIndex = 8;
             // 
             // nmrcCombo3
@@ -175,7 +175,7 @@
             this.nmrcCombo3.ForeColor = System.Drawing.SystemColors.Window;
             this.nmrcCombo3.Location = new System.Drawing.Point(1011, 285);
             this.nmrcCombo3.Name = "nmrcCombo3";
-            this.nmrcCombo3.Size = new System.Drawing.Size(30, 20);
+            this.nmrcCombo3.Size = new System.Drawing.Size(36, 20);
             this.nmrcCombo3.TabIndex = 9;
             // 
             // nmrcCombo4
@@ -185,7 +185,7 @@
             this.nmrcCombo4.ForeColor = System.Drawing.SystemColors.Window;
             this.nmrcCombo4.Location = new System.Drawing.Point(141, 577);
             this.nmrcCombo4.Name = "nmrcCombo4";
-            this.nmrcCombo4.Size = new System.Drawing.Size(30, 20);
+            this.nmrcCombo4.Size = new System.Drawing.Size(36, 20);
             this.nmrcCombo4.TabIndex = 10;
             // 
             // nmrcCombo5
@@ -195,7 +195,7 @@
             this.nmrcCombo5.ForeColor = System.Drawing.SystemColors.Window;
             this.nmrcCombo5.Location = new System.Drawing.Point(561, 577);
             this.nmrcCombo5.Name = "nmrcCombo5";
-            this.nmrcCombo5.Size = new System.Drawing.Size(30, 20);
+            this.nmrcCombo5.Size = new System.Drawing.Size(36, 20);
             this.nmrcCombo5.TabIndex = 11;
             // 
             // nmrcCombo6
@@ -205,7 +205,7 @@
             this.nmrcCombo6.ForeColor = System.Drawing.SystemColors.Window;
             this.nmrcCombo6.Location = new System.Drawing.Point(1011, 577);
             this.nmrcCombo6.Name = "nmrcCombo6";
-            this.nmrcCombo6.Size = new System.Drawing.Size(30, 20);
+            this.nmrcCombo6.Size = new System.Drawing.Size(36, 20);
             this.nmrcCombo6.TabIndex = 12;
             // 
             // label2
@@ -266,9 +266,9 @@
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label6.Location = new System.Drawing.Point(977, 316);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(249, 16);
+            this.label6.Size = new System.Drawing.Size(267, 16);
             this.label6.TabIndex = 18;
-            this.label6.Text = "2 medios pollos y 2 porciones de papas ";
+            this.label6.Text = "Duo medios pollos y 2 porciones de papas ";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label7
@@ -340,11 +340,11 @@
             this.label12.BackColor = System.Drawing.Color.Black;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label12.Location = new System.Drawing.Point(1054, 600);
+            this.label12.Location = new System.Drawing.Point(977, 616);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(102, 16);
+            this.label12.Size = new System.Drawing.Size(258, 16);
             this.label12.TabIndex = 24;
-            this.label12.Text = "2 pollos enteros";
+            this.label12.Text = "2 pollos enteros, arroz y menestra de fréjol";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label13

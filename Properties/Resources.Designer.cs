@@ -339,5 +339,15 @@ namespace SftAsadero.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2022_03_01_at_14_51_21 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2022-03-01 at 14.51.21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

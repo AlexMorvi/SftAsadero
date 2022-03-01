@@ -47,6 +47,7 @@
             this.lblObliCi = new System.Windows.Forms.Label();
             this.lblObiTelefono = new System.Windows.Forms.Label();
             this.lblObliDireccion = new System.Windows.Forms.Label();
+            this.btnConsumidorFinal = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -55,7 +56,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.ControlText;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label1.Location = new System.Drawing.Point(843, 9);
+            this.label1.Location = new System.Drawing.Point(152, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(369, 39);
             this.label1.TabIndex = 0;
@@ -65,11 +66,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.ControlText;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label2.Location = new System.Drawing.Point(836, 88);
+            this.label2.Location = new System.Drawing.Point(62, 183);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 20);
+            this.label2.Size = new System.Drawing.Size(76, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nombre:";
             // 
@@ -77,35 +78,35 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.ControlText;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label3.Location = new System.Drawing.Point(855, 145);
+            this.label3.Location = new System.Drawing.Point(62, 238);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 20);
+            this.label3.Size = new System.Drawing.Size(75, 20);
             this.label3.TabIndex = 2;
-            this.label3.Text = "CI.";
+            this.label3.Text = "Cédula: ";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.ControlText;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label4.Location = new System.Drawing.Point(836, 246);
+            this.label4.Location = new System.Drawing.Point(62, 344);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(75, 20);
+            this.label4.Size = new System.Drawing.Size(94, 20);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Dirección";
+            this.label4.Text = "Dirección: ";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.SystemColors.ControlText;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label5.Location = new System.Drawing.Point(836, 193);
+            this.label5.Location = new System.Drawing.Point(62, 293);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(75, 20);
+            this.label5.Size = new System.Drawing.Size(84, 20);
             this.label5.TabIndex = 4;
             this.label5.Text = "Teléfono:";
             // 
@@ -114,7 +115,7 @@
             this.txtNombre.BackColor = System.Drawing.SystemColors.WindowText;
             this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.ForeColor = System.Drawing.SystemColors.Window;
-            this.txtNombre.Location = new System.Drawing.Point(1038, 82);
+            this.txtNombre.Location = new System.Drawing.Point(370, 183);
             this.txtNombre.MaxLength = 3444;
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(185, 26);
@@ -128,7 +129,7 @@
             this.txtCedula.BackColor = System.Drawing.SystemColors.WindowText;
             this.txtCedula.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCedula.ForeColor = System.Drawing.SystemColors.Window;
-            this.txtCedula.Location = new System.Drawing.Point(1038, 139);
+            this.txtCedula.Location = new System.Drawing.Point(370, 238);
             this.txtCedula.MaxLength = 10;
             this.txtCedula.Name = "txtCedula";
             this.txtCedula.Size = new System.Drawing.Size(185, 26);
@@ -142,7 +143,7 @@
             this.txtTelefono.BackColor = System.Drawing.SystemColors.WindowText;
             this.txtTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefono.ForeColor = System.Drawing.SystemColors.Window;
-            this.txtTelefono.Location = new System.Drawing.Point(1038, 190);
+            this.txtTelefono.Location = new System.Drawing.Point(370, 293);
             this.txtTelefono.MaxLength = 10;
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(185, 26);
@@ -156,7 +157,7 @@
             this.txtDireccion.BackColor = System.Drawing.SystemColors.WindowText;
             this.txtDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDireccion.ForeColor = System.Drawing.SystemColors.Window;
-            this.txtDireccion.Location = new System.Drawing.Point(1038, 246);
+            this.txtDireccion.Location = new System.Drawing.Point(370, 344);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(185, 26);
             this.txtDireccion.TabIndex = 8;
@@ -166,9 +167,9 @@
             // btnPagar
             // 
             this.btnPagar.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.btnPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPagar.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.btnPagar.Location = new System.Drawing.Point(1103, 665);
+            this.btnPagar.Location = new System.Drawing.Point(619, 596);
             this.btnPagar.Name = "btnPagar";
             this.btnPagar.Size = new System.Drawing.Size(120, 35);
             this.btnPagar.TabIndex = 10;
@@ -179,11 +180,11 @@
             // btnFactura
             // 
             this.btnFactura.BackColor = System.Drawing.SystemColors.ControlText;
-            this.btnFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFactura.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.btnFactura.Location = new System.Drawing.Point(948, 321);
+            this.btnFactura.Location = new System.Drawing.Point(370, 430);
             this.btnFactura.Name = "btnFactura";
-            this.btnFactura.Size = new System.Drawing.Size(165, 38);
+            this.btnFactura.Size = new System.Drawing.Size(185, 38);
             this.btnFactura.TabIndex = 11;
             this.btnFactura.Text = "Imprimir Factura";
             this.btnFactura.UseVisualStyleBackColor = false;
@@ -192,9 +193,9 @@
             // btnSalir
             // 
             this.btnSalir.BackColor = System.Drawing.Color.Black;
-            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.btnSalir.Location = new System.Drawing.Point(840, 665);
+            this.btnSalir.Location = new System.Drawing.Point(619, 678);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(120, 35);
             this.btnSalir.TabIndex = 12;
@@ -205,13 +206,13 @@
             // txtFacturaDatos
             // 
             this.txtFacturaDatos.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtFacturaDatos.Enabled = false;
             this.txtFacturaDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFacturaDatos.ForeColor = System.Drawing.SystemColors.Window;
-            this.txtFacturaDatos.Location = new System.Drawing.Point(807, 365);
+            this.txtFacturaDatos.Location = new System.Drawing.Point(805, 10);
             this.txtFacturaDatos.Multiline = true;
             this.txtFacturaDatos.Name = "txtFacturaDatos";
-            this.txtFacturaDatos.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtFacturaDatos.Size = new System.Drawing.Size(468, 278);
+            this.txtFacturaDatos.Size = new System.Drawing.Size(468, 733);
             this.txtFacturaDatos.TabIndex = 13;
             // 
             // lblAdvertencia
@@ -220,7 +221,7 @@
             this.lblAdvertencia.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAdvertencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAdvertencia.ForeColor = System.Drawing.Color.Red;
-            this.lblAdvertencia.Location = new System.Drawing.Point(837, 293);
+            this.lblAdvertencia.Location = new System.Drawing.Point(63, 393);
             this.lblAdvertencia.Name = "lblAdvertencia";
             this.lblAdvertencia.Size = new System.Drawing.Size(199, 16);
             this.lblAdvertencia.TabIndex = 14;
@@ -232,7 +233,7 @@
             this.lblObliNombre.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblObliNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblObliNombre.ForeColor = System.Drawing.Color.Red;
-            this.lblObliNombre.Location = new System.Drawing.Point(1017, 82);
+            this.lblObliNombre.Location = new System.Drawing.Point(349, 183);
             this.lblObliNombre.Name = "lblObliNombre";
             this.lblObliNombre.Size = new System.Drawing.Size(15, 20);
             this.lblObliNombre.TabIndex = 15;
@@ -244,7 +245,7 @@
             this.lblObliCi.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblObliCi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblObliCi.ForeColor = System.Drawing.Color.Red;
-            this.lblObliCi.Location = new System.Drawing.Point(1017, 139);
+            this.lblObliCi.Location = new System.Drawing.Point(349, 238);
             this.lblObliCi.Name = "lblObliCi";
             this.lblObliCi.Size = new System.Drawing.Size(15, 20);
             this.lblObliCi.TabIndex = 16;
@@ -256,7 +257,7 @@
             this.lblObiTelefono.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblObiTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblObiTelefono.ForeColor = System.Drawing.Color.Red;
-            this.lblObiTelefono.Location = new System.Drawing.Point(1017, 193);
+            this.lblObiTelefono.Location = new System.Drawing.Point(349, 293);
             this.lblObiTelefono.Name = "lblObiTelefono";
             this.lblObiTelefono.Size = new System.Drawing.Size(15, 20);
             this.lblObiTelefono.TabIndex = 17;
@@ -268,20 +269,34 @@
             this.lblObliDireccion.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblObliDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblObliDireccion.ForeColor = System.Drawing.Color.Red;
-            this.lblObliDireccion.Location = new System.Drawing.Point(1017, 246);
+            this.lblObliDireccion.Location = new System.Drawing.Point(349, 347);
             this.lblObliDireccion.Name = "lblObliDireccion";
             this.lblObliDireccion.Size = new System.Drawing.Size(15, 20);
             this.lblObliDireccion.TabIndex = 18;
             this.lblObliDireccion.Text = "*";
             // 
+            // btnConsumidorFinal
+            // 
+            this.btnConsumidorFinal.BackColor = System.Drawing.SystemColors.ControlText;
+            this.btnConsumidorFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsumidorFinal.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btnConsumidorFinal.Location = new System.Drawing.Point(66, 430);
+            this.btnConsumidorFinal.Name = "btnConsumidorFinal";
+            this.btnConsumidorFinal.Size = new System.Drawing.Size(178, 38);
+            this.btnConsumidorFinal.TabIndex = 19;
+            this.btnConsumidorFinal.Text = "Consumidor Final";
+            this.btnConsumidorFinal.UseVisualStyleBackColor = false;
+            this.btnConsumidorFinal.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormFactura
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SftAsadero.Properties.Resources.chicken_legs;
+            this.BackgroundImage = global::SftAsadero.Properties.Resources.WhatsApp_Image_2022_03_01_at_14_51_21;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1346, 725);
             this.ControlBox = false;
+            this.Controls.Add(this.btnConsumidorFinal);
             this.Controls.Add(this.lblObliDireccion);
             this.Controls.Add(this.lblObiTelefono);
             this.Controls.Add(this.lblObliCi);
@@ -333,5 +348,6 @@
         private System.Windows.Forms.Label lblObliCi;
         private System.Windows.Forms.Label lblObiTelefono;
         private System.Windows.Forms.Label lblObliDireccion;
+        private System.Windows.Forms.Button btnConsumidorFinal;
     }
 }

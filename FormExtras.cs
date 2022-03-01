@@ -76,7 +76,7 @@ namespace SftAsadero
             if (nmrcTeHelado.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcTeHelado.Value) * arregloExtras[4].precioExtra;
-                factura.descripcion += nmrcTeHelado.Value + "\tTe Helado\t" + "$" + arregloExtras[4].precioExtra + "\r\n";
+                factura.descripcion += nmrcTeHelado.Value + "\tTe Helado\r\t\t" + "$" + arregloExtras[4].precioExtra + "\r\n";
 
             }
             if (nmrcTiramisu.Value > 0)
