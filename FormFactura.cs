@@ -17,6 +17,11 @@ namespace SftAsadero
         public FormFactura()
         {
             InitializeComponent();
+            lblAdvertencia.Hide();
+            lblObliNombre.Hide();
+            lblObliCi.Hide();
+            lblObiTelefono.Hide();
+            lblObliDireccion.Hide();
             btnSalir.Enabled = false;
             btnPagar.Enabled = false;
         }
@@ -60,6 +65,94 @@ namespace SftAsadero
             txtFacturaDatos.Text = "\t\tFACTURA\r\t\t\n\r\nNombre del Cliente:\r\t"+cliente.nombre+ "\r\n" +"Numero de Cedula:\r\t" +cliente.cedula + "\r\n"+"Telefono:\r\t"+ cliente.telefono + "\r\n" +"Direccion\r\t"+ cliente.direccion + "\r\n" +"Fecha:\r\t" + fecha.dia+"/"+ fecha.mes+"/"+fecha.anio+"\r\t"+"Hora:    "+fecha.hora+"\r\n\r\nCantidad\r\tProducto\r\t\tPrecio Unitario\r\n\r\n" + Convert.ToString(factura.descripcion) + "\r\n" + "Subtotal\t\t\t" + Convert.ToString(factura.subtotal)+"\r\nTotal\t\t\t"+factura.total;
             btnSalir.Enabled = true;
             btnPagar.Enabled = true;
+        }
+
+        private void txtNombre_Validating(object sender, CancelEventArgs e)
+        {
+            if(txtNombre.Text.Equals(""))
+            {
+                txtNombre.BackColor = Color.Red;
+                lblAdvertencia.Show();
+                lblObliNombre.Show();
+            }
+            else
+            {
+                txtNombre.BackColor = Color.Black;
+                lblAdvertencia.Hide();
+                lblObliNombre.Hide();
+            }
+        }
+
+        private void txtCedula_Validating(object sender, CancelEventArgs e)
+        {
+            if (txtCedula.Text.Equals(""))
+            {
+                txtCedula.BackColor = Color.Red;
+                lblAdvertencia.Show();
+                lblObliCi.Show();
+            }
+            else
+            {
+                txtCedula.BackColor = Color.Black;
+                lblAdvertencia.Hide();
+                lblObliCi.Hide();
+            }
+        }
+
+        private void txtTelefono_Validating(object sender, CancelEventArgs e)
+        {
+            if (txtTelefono.Text.Equals(""))
+            {
+                txtTelefono.BackColor = Color.Red;
+                lblAdvertencia.Show();
+                lblObiTelefono.Show();
+            }
+            else
+            {
+                txtTelefono.BackColor = Color.Black;
+                lblAdvertencia.Hide();
+                lblObiTelefono.Hide();
+            }
+        }
+
+        private void txtDireccion_Validating(object sender, CancelEventArgs e)
+        {
+            if (txtDireccion.Text.Equals(""))
+            {
+                txtDireccion.BackColor = Color.Red;
+                lblAdvertencia.Show();
+                lblObliDireccion.Show();
+            }
+            else
+            {
+                txtDireccion.BackColor = Color.Black;
+                lblAdvertencia.Hide();
+                lblObliDireccion.Hide();
+            }
+        }
+
+        private void txtCedula_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if((e.KeyChar < 48 || e.KeyChar >57) && e.KeyChar != 8)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar < 48 || e.KeyChar > 57) && e.KeyChar != 8)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if((e.KeyChar >= 32 && e.KeyChar <= 64)|| (e.KeyChar >= 91 && e.KeyChar <= 96) || (e.KeyChar >= 123 && e.KeyChar <= 255))
+            {
+                e.Handled = true;
+            }
         }
     }
 }

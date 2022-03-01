@@ -42,6 +42,11 @@
             this.btnFactura = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.txtFacturaDatos = new System.Windows.Forms.TextBox();
+            this.lblAdvertencia = new System.Windows.Forms.Label();
+            this.lblObliNombre = new System.Windows.Forms.Label();
+            this.lblObliCi = new System.Windows.Forms.Label();
+            this.lblObiTelefono = new System.Windows.Forms.Label();
+            this.lblObliDireccion = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -50,7 +55,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.ControlText;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label1.Location = new System.Drawing.Point(820, 9);
+            this.label1.Location = new System.Drawing.Point(843, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(369, 39);
             this.label1.TabIndex = 0;
@@ -113,6 +118,8 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(185, 26);
             this.txtNombre.TabIndex = 5;
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
+            this.txtNombre.Validating += new System.ComponentModel.CancelEventHandler(this.txtNombre_Validating);
             // 
             // txtCedula
             // 
@@ -123,6 +130,8 @@
             this.txtCedula.Name = "txtCedula";
             this.txtCedula.Size = new System.Drawing.Size(185, 26);
             this.txtCedula.TabIndex = 6;
+            this.txtCedula.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCedula_KeyPress);
+            this.txtCedula.Validating += new System.ComponentModel.CancelEventHandler(this.txtCedula_Validating);
             // 
             // txtTelefono
             // 
@@ -133,6 +142,8 @@
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(185, 26);
             this.txtTelefono.TabIndex = 7;
+            this.txtTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefono_KeyPress);
+            this.txtTelefono.Validating += new System.ComponentModel.CancelEventHandler(this.txtTelefono_Validating);
             // 
             // txtDireccion
             // 
@@ -143,6 +154,7 @@
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(185, 26);
             this.txtDireccion.TabIndex = 8;
+            this.txtDireccion.Validating += new System.ComponentModel.CancelEventHandler(this.txtDireccion_Validating);
             // 
             // btnPagar
             // 
@@ -162,7 +174,7 @@
             this.btnFactura.BackColor = System.Drawing.SystemColors.ControlText;
             this.btnFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFactura.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btnFactura.Location = new System.Drawing.Point(946, 304);
+            this.btnFactura.Location = new System.Drawing.Point(948, 321);
             this.btnFactura.Name = "btnFactura";
             this.btnFactura.Size = new System.Drawing.Size(165, 38);
             this.btnFactura.TabIndex = 11;
@@ -195,6 +207,66 @@
             this.txtFacturaDatos.Size = new System.Drawing.Size(427, 278);
             this.txtFacturaDatos.TabIndex = 13;
             // 
+            // lblAdvertencia
+            // 
+            this.lblAdvertencia.AutoSize = true;
+            this.lblAdvertencia.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAdvertencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdvertencia.ForeColor = System.Drawing.Color.Red;
+            this.lblAdvertencia.Location = new System.Drawing.Point(837, 293);
+            this.lblAdvertencia.Name = "lblAdvertencia";
+            this.lblAdvertencia.Size = new System.Drawing.Size(199, 16);
+            this.lblAdvertencia.TabIndex = 14;
+            this.lblAdvertencia.Text = "Ingrese los campos obligatorios";
+            // 
+            // lblObliNombre
+            // 
+            this.lblObliNombre.AutoSize = true;
+            this.lblObliNombre.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblObliNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblObliNombre.ForeColor = System.Drawing.Color.Red;
+            this.lblObliNombre.Location = new System.Drawing.Point(1017, 82);
+            this.lblObliNombre.Name = "lblObliNombre";
+            this.lblObliNombre.Size = new System.Drawing.Size(15, 20);
+            this.lblObliNombre.TabIndex = 15;
+            this.lblObliNombre.Text = "*";
+            // 
+            // lblObliCi
+            // 
+            this.lblObliCi.AutoSize = true;
+            this.lblObliCi.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblObliCi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblObliCi.ForeColor = System.Drawing.Color.Red;
+            this.lblObliCi.Location = new System.Drawing.Point(1017, 139);
+            this.lblObliCi.Name = "lblObliCi";
+            this.lblObliCi.Size = new System.Drawing.Size(15, 20);
+            this.lblObliCi.TabIndex = 16;
+            this.lblObliCi.Text = "*";
+            // 
+            // lblObiTelefono
+            // 
+            this.lblObiTelefono.AutoSize = true;
+            this.lblObiTelefono.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblObiTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblObiTelefono.ForeColor = System.Drawing.Color.Red;
+            this.lblObiTelefono.Location = new System.Drawing.Point(1017, 193);
+            this.lblObiTelefono.Name = "lblObiTelefono";
+            this.lblObiTelefono.Size = new System.Drawing.Size(15, 20);
+            this.lblObiTelefono.TabIndex = 17;
+            this.lblObiTelefono.Text = "*";
+            // 
+            // lblObliDireccion
+            // 
+            this.lblObliDireccion.AutoSize = true;
+            this.lblObliDireccion.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblObliDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblObliDireccion.ForeColor = System.Drawing.Color.Red;
+            this.lblObliDireccion.Location = new System.Drawing.Point(1017, 246);
+            this.lblObliDireccion.Name = "lblObliDireccion";
+            this.lblObliDireccion.Size = new System.Drawing.Size(15, 20);
+            this.lblObliDireccion.TabIndex = 18;
+            this.lblObliDireccion.Text = "*";
+            // 
             // FormFactura
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -203,6 +275,11 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1346, 725);
             this.ControlBox = false;
+            this.Controls.Add(this.lblObliDireccion);
+            this.Controls.Add(this.lblObiTelefono);
+            this.Controls.Add(this.lblObliCi);
+            this.Controls.Add(this.lblObliNombre);
+            this.Controls.Add(this.lblAdvertencia);
             this.Controls.Add(this.txtFacturaDatos);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnFactura);
@@ -244,5 +321,10 @@
         private System.Windows.Forms.Button btnFactura;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.TextBox txtFacturaDatos;
+        private System.Windows.Forms.Label lblAdvertencia;
+        private System.Windows.Forms.Label lblObliNombre;
+        private System.Windows.Forms.Label lblObliCi;
+        private System.Windows.Forms.Label lblObiTelefono;
+        private System.Windows.Forms.Label lblObliDireccion;
     }
 }
