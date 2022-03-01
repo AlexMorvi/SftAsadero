@@ -7,16 +7,16 @@ namespace SftAsadero
     {
         public struct cliente
         {
-            public string nombre;
-            public string cedula;
-            public string telefono;
-            public string direccion;
+            static public string nombre;
+            static public string cedula;
+            static public string telefono;
+            static public string direccion;
         }
         public struct fecha
         {
-            public int dia;
-            public int mes;
-            public int anio;
+            static public int dia;
+            static public int mes;
+            static public int anio;
         }
         public struct menuCombos
         {
@@ -35,10 +35,8 @@ namespace SftAsadero
         }
         public struct factura
         {
-            public cliente cliente;
-            public fecha fecha;
             static public int subtotal;
-            public double total;
+            static public double total;
             static public string descripcion;
         }
 

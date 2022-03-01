@@ -77,12 +77,12 @@
             // 
             this.txtCarrito.BackColor = System.Drawing.SystemColors.WindowText;
             this.txtCarrito.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtCarrito.Enabled = false;
-            this.txtCarrito.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCarrito.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCarrito.ForeColor = System.Drawing.SystemColors.Window;
             this.txtCarrito.Location = new System.Drawing.Point(414, 176);
             this.txtCarrito.Multiline = true;
             this.txtCarrito.Name = "txtCarrito";
+            this.txtCarrito.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtCarrito.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtCarrito.Size = new System.Drawing.Size(468, 353);
             this.txtCarrito.TabIndex = 4;

@@ -168,6 +168,7 @@
             this.btnFactura.TabIndex = 11;
             this.btnFactura.Text = "Imprimir Factura";
             this.btnFactura.UseVisualStyleBackColor = false;
+            this.btnFactura.Click += new System.EventHandler(this.btnFactura_Click);
             // 
             // btnSalir
             // 
@@ -185,7 +186,7 @@
             // txtFacturaDatos
             // 
             this.txtFacturaDatos.BackColor = System.Drawing.SystemColors.WindowText;
-            this.txtFacturaDatos.Enabled = false;
+            this.txtFacturaDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.txtFacturaDatos.ForeColor = System.Drawing.SystemColors.Window;
             this.txtFacturaDatos.Location = new System.Drawing.Point(818, 365);
             this.txtFacturaDatos.Multiline = true;
