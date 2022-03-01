@@ -50,32 +50,32 @@ namespace SftAsadero
             if(nmrcCombo1.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcCombo1.Value )* arregloCombos[0].precioCombo;
-                factura.descripcion += nmrcCombo1.Value+ "\tCombo 1" + "\r\t\t" + arregloCombos[0].precioCombo+"\r\n";
+                factura.descripcion += nmrcCombo1.Value+ "\tCombo 1" + "\r\t\t" +"$"+ arregloCombos[0].precioCombo+"\r\n";
             }
             if (nmrcCombo2.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcCombo2.Value) * arregloCombos[1].precioCombo;
-                factura.descripcion += nmrcCombo2.Value + "\tCombo 2" + "\r\t\t" + arregloCombos[1].precioCombo + "\r\n";
+                factura.descripcion += nmrcCombo2.Value + "\tCombo 2" + "\r\t\t" + "$" + arregloCombos[1].precioCombo + "\r\n";
             }
             if (nmrcCombo3.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcCombo3.Value) * arregloCombos[2].precioCombo;
-                factura.descripcion += nmrcCombo3.Value + "\tCombo 3" + "\r\t\t" + arregloCombos[2].precioCombo + "\r\n";
+                factura.descripcion += nmrcCombo3.Value + "\tCombo 3" + "\r\t\t" + "$" + arregloCombos[2].precioCombo + "\r\n";
             }
             if (nmrcCombo4.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcCombo4.Value) * arregloCombos[3].precioCombo;
-                factura.descripcion += nmrcCombo4.Value + "\tCombo 4" + "\r\t\t" + arregloCombos[3].precioCombo + "\r\n";
+                factura.descripcion += nmrcCombo4.Value + "\tCombo 4" + "\r\t\t" + "$" + arregloCombos[3].precioCombo + "\r\n";
             }
             if (nmrcCombo5.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcCombo5.Value) * arregloCombos[4].precioCombo;
-                factura.descripcion += Convert.ToString(nmrcCombo5.Value) + "\tCombo 5" + "\r\t\t" + Convert.ToString(arregloCombos[4].precioCombo) + "\r\n";
+                factura.descripcion += Convert.ToString(nmrcCombo5.Value) + "\tCombo 5" + "\r\t\t" + "$" + arregloCombos[4].precioCombo + "\r\n";
             }
             if (nmrcCombo6.Value > 0)
             {
                 factura.subtotal += Convert.ToInt32(nmrcCombo6.Value) * arregloCombos[5].precioCombo;
-                factura.descripcion += Convert.ToString(nmrcCombo6.Value) + "\tCombo 6"+"\r\t\t" + Convert.ToString(arregloCombos[5].precioCombo )+ "\r\n";
+                factura.descripcion += Convert.ToString(nmrcCombo6.Value) + "\tCombo 6"+"\r\t\t" + "$" + arregloCombos[5].precioCombo + "\r\n";
             }
 
             FormPlatosFuertes formPlatosFuertes = new FormPlatosFuertes();

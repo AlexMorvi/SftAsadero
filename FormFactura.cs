@@ -73,7 +73,7 @@ namespace SftAsadero
             fecha.mes = DateTime.Now.ToString("MM");
             fecha.dia = DateTime.Now.ToString("dd");
             fecha.hora = DateTime.Now.ToString("HH:mm");
-            txtFacturaDatos.Text = "\t\tFACTURA\r\t\t\n\r\nNombre del Cliente:\r\t"+cliente.nombre+ "\r\n" +"Numero de Cedula:\r\t" +cliente.cedula + "\r\n"+"Telefono:\r\t"+ cliente.telefono + "\r\n" +"Direccion\r\t"+ cliente.direccion + "\r\n" +"Fecha:\r\t" + fecha.dia+"/"+ fecha.mes+"/"+fecha.anio+"\r\t"+"Hora:    "+fecha.hora+"\r\n\r\nCantidad\r\tProducto\r\t\tPrecio Unitario\r\n\r\n" + Convert.ToString(factura.descripcion) + "\r\n" + "Subtotal\t\t\t" + Convert.ToString(factura.subtotal)+"\r\nTotal\t\t\t"+factura.total;
+            txtFacturaDatos.Text = "\t\tFACTURA\r\t\t\n\r\nNombre del Cliente:\r\t"+cliente.nombre+ "\r\n" +"Numero de Cedula:\r\t" +cliente.cedula + "\r\n"+"Telefono:\r\t"+ cliente.telefono + "\r\n" +"Direccion\r\t"+ cliente.direccion + "\r\n" +"Fecha:\r\t" + fecha.dia+"/"+ fecha.mes+"/"+fecha.anio+"\r\t"+"Hora:    "+fecha.hora+"\r\n\r\nCantidad\r\tProducto\r\t\tPrecio Unitario\r\n\r\n" + Convert.ToString(factura.descripcion) + "\r\n" + "Subtotal\t\t\t" +"$"+ Convert.ToString(factura.subtotal)+"\r\nTotal\t\t\t"+"$"+factura.total;
             btnSalir.Enabled = true;
             btnPagar.Enabled = true;
         }
