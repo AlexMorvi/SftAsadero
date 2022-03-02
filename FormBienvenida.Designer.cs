@@ -119,8 +119,8 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormBienvenida";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Asadero Pollito En fuga";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

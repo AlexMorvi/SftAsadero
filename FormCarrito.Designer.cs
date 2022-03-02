@@ -120,8 +120,8 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormCarrito";
-            this.Text = "Asadero Poliitos En Fuga";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Asadero Pollitos En Fuga";
             this.Load += new System.EventHandler(this.FormCarrito_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

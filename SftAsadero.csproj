@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>1206237.ico</ApplicationIcon>
+    <ApplicationIcon>Icono global.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -130,6 +130,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1206237.ico" />
+    <Content Include="Icono global.ico" />
     <None Include="Resources\WhatsApp Image 2022-03-01 at 14.51.21.jpeg" />
     <None Include="Resources\chicken-legs.jpeg" />
     <None Include="Resources\fire-1235718_960_720.jpg" />
