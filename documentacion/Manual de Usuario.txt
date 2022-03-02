@@ -1,0 +1,35 @@
+Creadores: FDA Solutions
+-Alvarado Freddy 
+-Bravo Dayanna
+-Morales Alexander 
+ 
+Software para asadero “Pollitos En Fuga”
+
+Acerca de esta aplicacion :
+
+Aplicación para realizar una compra en Asadero "Poliitos en Fuga".
+Es rápida, segura y confiable.
+
+Manual de Usuario: 
+
+1. Abra la aplicación y seleccione el menú que desea visualizar. 
+
+2. Seleccione lo que desea agregar a su orden. 
+
+3. Siga avanzando conforme lo que desee agregar a su compra, siguiendo el orden de los botones. 
+
+4. Verificar lo que tiene en el carrito y seleccionar "Terminar compra". 
+
+5. Si no desea añadir sus datos seleccione "Consumidor Final". 
+
+6. Si desea añadir sus datos para la factura, complete los espacios solicitados (mientras no se llenen todos los campos, 
+no se habilitará el botón de "Imprimir Factura"). 
+
+7. Seleccione "Imprimir factura". 
+
+8. Seleccione "Pagar". 
+
+9. Repetir Proceso en caso de requerir otra compra.
+
+10. Salir de la aplicación. 
+
